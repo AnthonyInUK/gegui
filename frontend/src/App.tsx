@@ -2088,8 +2088,13 @@ function ReviewDetailPage({
   )
 }
 
+// Experimental cross-border views stay in the codebase for later development,
+// but the deployed interview demo intentionally exposes only the compliance Agent.
+void NavButton
+void OpportunityView
+void CrossborderPipelineView
+
 export default function App() {
-  const [view, setView] = useState<'compliance' | 'crossborder' | 'opportunity'>('compliance')
   const [stats, setStats] = useState<Stats | null>(null)
   const [records, setRecords] = useState<ReviewRecord[]>([])
   const [sel, setSel] = useState<ReviewRecord | null>(null)
@@ -2173,30 +2178,18 @@ export default function App() {
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-300 backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
-              Agent-as-Tool · Cross-border Operations
-            </div>
-            <div className="flex gap-2">
-              <NavButton active={view === 'compliance'} onClick={() => setView('compliance')}>合规 Agent</NavButton>
-              <NavButton active={view === 'opportunity'} onClick={() => setView('opportunity')}>机会发现</NavButton>
-              <NavButton active={view === 'crossborder'} onClick={() => setView('crossborder')}>跨境 Pipeline</NavButton>
+              Agent-as-Tool · Compliance Review
             </div>
           </div>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-white">
-            {view === 'opportunity' ? '选品机会发现引擎'
-              : view === 'crossborder' ? '跨境电商 Agent 控制台' : '广告法/证照合规 Agent'}
+            广告法/证照合规 Agent
           </h1>
           <p className="mt-2 text-slate-200">
-            {view === 'opportunity'
-              ? <>Google Trends 发现赛道 → 评论痛点挖差异化 → <span className="text-cyan-300/90">多信号融合排序</span> → 第一名五维深挖（基于 6 万真实 Amazon 商品）</>
-              : view === 'crossborder'
-              ? '公开 Amazon 数据 → 选品 → Listing → 合规 → 广告诊断 → 客服处理 → Action Gate'
-              : <>文字/图片素材 → 多专家审核 → <span className="text-amber-300/90">违规证据定位</span> → 可直接替换的整改建议 → 审计落库</>}
+            文字/图片素材 → 多专家审核 → <span className="text-amber-300/90">违规证据定位</span> → 可直接替换的整改建议 → 审计落库
           </p>
         </motion.div>
 
-        {view === 'opportunity' ? <OpportunityView /> :
-        view === 'crossborder' ? <CrossborderPipelineView /> :
-        detailPage && sel ? (
+        {detailPage && sel ? (
           <ReviewDetailPage record={sel} onBack={backToReviewHome} onFeedback={fb} />
         ) : (
         <>
