@@ -6,4 +6,5 @@ rich>=13.7.0                    # CLI 展示
 pillow>=10.0.0                  # 图片读取/编码（多模态输入）
 fastapi>=0.110.0               # Web 看板后端
 uvicorn[standard]>=0.30.0      # ASGI 服务器
+python-multipart>=0.0.9        # FastAPI 文件上传
 mcp>=1.27.0                    # MCP Server：把合规 Agent 暴露给外部 Agent 平台

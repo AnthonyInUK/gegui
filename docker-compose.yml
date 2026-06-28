@@ -1,0 +1,14 @@
+services:
+  compliance-agent:
+    build: .
+    container_name: compliance-agent
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    volumes:
+      - compliance_agent_db:/app/src/db
+
+volumes:
+  compliance_agent_db:
