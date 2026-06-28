@@ -1,0 +1,48 @@
+{
+  "seeds": [
+    "neck massager",
+    "foot massager"
+  ],
+  "noise_filter_labels": [
+    {
+      "query": "neck massager",
+      "is_niche": true
+    },
+    {
+      "query": "electric neck massager",
+      "is_niche": true
+    },
+    {
+      "query": "neck and shoulder massager with heat",
+      "is_niche": true
+    },
+    {
+      "query": "scalp massager",
+      "is_niche": true
+    },
+    {
+      "query": "foot massager",
+      "is_niche": true
+    },
+    {
+      "query": "neck massager reviews",
+      "is_niche": false
+    },
+    {
+      "query": "artuvate neck massager",
+      "is_niche": false
+    },
+    {
+      "query": "homedics quad action shiatsu kneading neck massager",
+      "is_niche": false
+    },
+    {
+      "query": "miko neck massager",
+      "is_niche": false
+    },
+    {
+      "query": "neck massager vs",
+      "is_niche": false
+    }
+  ]
+}

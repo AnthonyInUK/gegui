@@ -1,0 +1,10 @@
+{
+  "seed_keyword": "neck massager",
+  "target_price": null,
+  "max_candidates": 8,
+  "workflow_id": "wf_tool_opportunity_demo",
+  "seller_id": "seller_demo",
+  "metadata": {
+    "source": "agent_tool_example"
+  }
+}

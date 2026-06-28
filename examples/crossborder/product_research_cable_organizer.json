@@ -1,0 +1,34 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_product_research_cable_organizer",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Silicone Cable Organizer",
+    "category": "home_office",
+    "brand": "DemoBrand",
+    "features": [
+      "compact",
+      "reusable",
+      "easy setup"
+    ],
+    "claims": [
+      "keeps desk cables tidy"
+    ],
+    "materials": [
+      "silicone"
+    ],
+    "attributes": {
+      "weight_kg": 0.1
+    }
+  },
+  "target_price": 19.99,
+  "landed_cost": 6.0,
+  "monthly_search_volume": 18000,
+  "competitor_count": 45,
+  "avg_rating": 4.1,
+  "review_pain_points": [
+    "adhesive falls off",
+    "too bulky"
+  ]
+}

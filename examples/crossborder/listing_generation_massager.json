@@ -1,0 +1,28 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_listing_generation_massager",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Portable Neck Massager",
+    "category": "health_personal_care",
+    "brand": "DemoBrand",
+    "features": [
+      "portable design",
+      "quiet operation",
+      "gentle heat"
+    ],
+    "claims": [
+      "supports everyday muscle relaxation"
+    ],
+    "materials": [
+      "ABS",
+      "silicone"
+    ],
+    "audience": "home and office users"
+  },
+  "keyword_hints": [
+    "neck relaxer",
+    "home office comfort"
+  ]
+}

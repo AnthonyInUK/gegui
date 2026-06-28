@@ -1,0 +1,879 @@
+{
+  "demo": {
+    "name": "crossborder_agent_end_to_end_demo",
+    "platform": "amazon",
+    "market": "US",
+    "workflow_id": "wf_demo_crossborder_pipeline",
+    "seller_id": "seller_demo"
+  },
+  "input_summary": {
+    "selected_product": {
+      "title": "Reusable Silicone Cable Organizer Clips for Desk",
+      "category": "Cable Organizer",
+      "brand": "DeskMate",
+      "sku": "",
+      "features": [
+        "Compact cable clips",
+        "Reusable silicone",
+        "Easy setup"
+      ],
+      "claims": [
+        "Keeps desk cables tidy for home office use."
+      ],
+      "materials": [],
+      "audience": "",
+      "image_urls": [
+        "https://example.com/cable01.jpg"
+      ],
+      "image_paths": [],
+      "documents": [],
+      "attributes": {
+        "source_parent_asin": "B0CABLE01",
+        "source_categories": [
+          "Office Products",
+          "Office Electronics Accessories",
+          "Cable Organizer"
+        ],
+        "main_category": "",
+        "item_form": "",
+        "age_range": "",
+        "color": "",
+        "average_rating": 4.2,
+        "rating_number": 420
+      }
+    },
+    "keyword": "cable organizer",
+    "target_category": "Office Products",
+    "target_price": 21.99,
+    "landed_cost": 11.3,
+    "competitors": [
+      {
+        "asin": "B0CABLE01",
+        "title": "Reusable Silicone Cable Organizer Clips for Desk",
+        "brand": "DeskMate",
+        "price": 18.99,
+        "rating": 4.2,
+        "review_count": 420,
+        "estimated_monthly_sales": 924,
+        "bsr": null,
+        "prime": null,
+        "seller_count": null,
+        "listing_quality_score": 100,
+        "strengths": [],
+        "weaknesses": [
+          "adhesive",
+          "too bulky",
+          "size mismatch"
+        ]
+      },
+      {
+        "asin": "B0CABLE02",
+        "title": "Low Profile Cord Holder for Home Office",
+        "brand": "CordCo",
+        "price": 21.99,
+        "rating": 4.0,
+        "review_count": 260,
+        "estimated_monthly_sales": 390,
+        "bsr": null,
+        "prime": null,
+        "seller_count": null,
+        "listing_quality_score": 100,
+        "strengths": [],
+        "weaknesses": [
+          "adhesive"
+        ]
+      }
+    ],
+    "pain_points": [
+      {
+        "topic": "adhesive",
+        "frequency": 2,
+        "severity": 4,
+        "example": "The organizer looked nice but the adhesive falls off after a few days.",
+        "source_asins": [
+          "B0CABLE01",
+          "B0CABLE02"
+        ]
+      },
+      {
+        "topic": "too bulky",
+        "frequency": 1,
+        "severity": 3,
+        "example": "It works but feels too bulky for a small desk.",
+        "source_asins": [
+          "B0CABLE01"
+        ]
+      },
+      {
+        "topic": "size mismatch",
+        "frequency": 1,
+        "severity": 3,
+        "example": "It works but feels too bulky for a small desk.",
+        "source_asins": [
+          "B0CABLE01"
+        ]
+      }
+    ],
+    "cost_model": {
+      "unit_cost": 4.2,
+      "inbound_shipping": 0.5,
+      "duty": null,
+      "prep_packaging": null,
+      "referral_fee": 3.3,
+      "fulfillment_fee": null,
+      "storage_fee_monthly": null,
+      "ads_cpa_estimate": 2.64,
+      "return_cost_allowance": 0.66,
+      "other_costs": null
+    },
+    "logistics": {
+      "weight_kg": 0.119,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "oversized": false,
+      "fragile": false,
+      "battery": false,
+      "liquid": false,
+      "magnet": false,
+      "hazmat": false,
+      "meltable": false
+    },
+    "compliance_precheck": {
+      "trademark_risk": false,
+      "patent_risk": false,
+      "restricted_category": false,
+      "certificate_required": false,
+      "medical_claim_risk": false,
+      "pesticide_claim_risk": false,
+      "children_product_risk": false,
+      "notes": []
+    },
+    "selection_basis": [
+      "从公开 Amazon Reviews 2023 风格数据中按关键词 'cable organizer' 和类目 'Office Products' 匹配候选。",
+      "最终候选为 Reusable Silicone Cable Organizer Clips for Desk，类目路径为 Office Products > Office Electronics Accessories > Cable Organizer。",
+      "样本中匹配到 2 个竞品、3 类评论痛点，用于判断需求、竞争和差异化空间。",
+      "机会分 79/100，需求、利润、竞争、物流、合规五项综合后为 high。",
+      "目标售价约 $21.99，预估全链路成本约 $11.3，用于粗算利润空间。"
+    ],
+    "listing_business_context": {
+      "generation_object": "Reusable Silicone Cable Organizer Clips for Desk",
+      "candidate_pool_relation": "候选池 2 条，当前 Listing 只为最终主推商品生成。",
+      "business_goal": "把这个候选品包装成 Amazon 可审核的初稿：先覆盖核心词 cable organizer，再表达 3 个安全卖点，不承诺解决 adhesive, too bulky, size mismatch 等质量痛点。",
+      "platform_constraints": {
+        "title_length": 108,
+        "title_limit": 180,
+        "bullet_count": 3,
+        "bullet_target": 5,
+        "search_term_count": 7
+      },
+      "objectives": [
+        {
+          "title": "让平台知道卖什么",
+          "detail": "标题要覆盖 cable organizer、Cable Organizer、Desk/Clips 等核心识别词。"
+        },
+        {
+          "title": "让买家知道为什么买",
+          "detail": "先表达 Compact cable clips, Reusable silicone, Easy setup 这些来自商品 metadata 的确定卖点。"
+        },
+        {
+          "title": "不把痛点写成假承诺",
+          "detail": "adhesive, too bulky, size mismatch 是风险/改良信号，不能直接写成永久解决或适配所有场景的承诺。"
+        }
+      ],
+      "gaps": [
+        "五点当前 3/5，还要补尺寸兼容、安装表面、包装数量/适用场景。",
+        "adhesive, too bulky, size mismatch 是研究提示，不一定能作为最终后台关键词发布。",
+        "真实发布还需要主图、场景图、尺寸图、类目属性、变体、包装尺寸、FBA 费用和合规证据。"
+      ],
+      "keyword_sources": {
+        "base_keyword": "cable organizer",
+        "feature_terms": [
+          "Compact cable clips",
+          "Reusable silicone",
+          "Easy setup"
+        ],
+        "pain_point_terms": [
+          "adhesive",
+          "too bulky",
+          "size mismatch"
+        ]
+      }
+    }
+  },
+  "stages": {
+    "data_intake": {
+      "status": "pass",
+      "report": {
+        "source": "amazon_reviews_2023_public_jsonl",
+        "raw_meta_rows": 3,
+        "raw_review_rows": 4,
+        "matched_items": 2,
+        "matched_reviews": 4,
+        "generated_competitors": 2,
+        "generated_pain_points": 3,
+        "price_coverage": 1.0,
+        "missing_fields": {
+          "price": 0,
+          "average_rating": 0,
+          "review_count": 0,
+          "images": 0,
+          "features": 0,
+          "weight": 0,
+          "unit_cost": 0
+        },
+        "inferred_fields": [
+          "ads_cpa_estimate_from_target_price",
+          "estimated_monthly_sales_from_review_count",
+          "inbound_shipping_from_unit_cost",
+          "referral_fee_from_target_price",
+          "return_cost_allowance_from_target_price",
+          "target_price_from_competitor_median"
+        ],
+        "warnings": []
+      }
+    },
+    "product_research": {
+      "decision": "pass",
+      "opportunity_level": "high",
+      "score": 79,
+      "confidence": 0.82,
+      "score_breakdown": {
+        "demand": 71,
+        "profitability": 78,
+        "competition": 85,
+        "logistics": 82,
+        "compliance": 86
+      },
+      "candidate_ranking": [
+        {
+          "asin": "B0CABLE01",
+          "title": "Reusable Silicone Cable Organizer Clips for Desk",
+          "role": "selected",
+          "score": 97,
+          "score_parts": {
+            "estimated_sales": 40,
+            "review_depth": 20,
+            "rating_window": 15,
+            "pain_point_gap": 15,
+            "price_position": 7
+          },
+          "signals": {
+            "price": 18.99,
+            "rating": 4.2,
+            "review_count": 420,
+            "estimated_monthly_sales": 924,
+            "weaknesses": [
+              "adhesive",
+              "too bulky",
+              "size mismatch"
+            ]
+          },
+          "why": [
+            "综合候选分 97/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+            "预估月销 924，评论数 420，评分 4.2。",
+            "评论弱点命中 adhesive, too bulky, size mismatch，说明存在可改良/差异化空间。",
+            "这是当前进入后续 Listing/合规链路的主推候选。"
+          ]
+        },
+        {
+          "asin": "B0CABLE02",
+          "title": "Low Profile Cord Holder for Home Office",
+          "role": "candidate",
+          "score": 59,
+          "score_parts": {
+            "estimated_sales": 17,
+            "review_depth": 12,
+            "rating_window": 15,
+            "pain_point_gap": 5,
+            "price_position": 10
+          },
+          "signals": {
+            "price": 21.99,
+            "rating": 4.0,
+            "review_count": 260,
+            "estimated_monthly_sales": 390,
+            "weaknesses": [
+              "adhesive"
+            ]
+          },
+          "why": [
+            "综合候选分 59/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+            "预估月销 390，评论数 260，评分 4.0。",
+            "评论弱点命中 adhesive，说明存在可改良/差异化空间。",
+            "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+          ]
+        }
+      ],
+      "research_pipeline": [
+        {
+          "step": "data_intake",
+          "name": "候选数据接入",
+          "question": "有哪些商品可以进入候选池？",
+          "inputs": [
+            "metadata",
+            "reviews",
+            "keyword",
+            "category"
+          ],
+          "calculation": "按关键词 'cable organizer' 和类目 'Office Products' 匹配，生成 2 条候选。",
+          "evidence": {
+            "candidate_count": 2,
+            "pain_point_count": 3
+          },
+          "output": "标准化候选池、评论痛点、成本/物流/合规预检。"
+        },
+        {
+          "step": "candidate_ranking",
+          "name": "候选排序",
+          "question": "为什么是这条商品进入后续链路？",
+          "inputs": [
+            "estimated_monthly_sales",
+            "review_count",
+            "rating",
+            "weaknesses",
+            "price"
+          ],
+          "calculation": "候选分 = 预估月销40 + 评论深度20 + 评分窗口15 + 痛点缺口15 + 价格位置10。",
+          "evidence": {
+            "ranking": [
+              {
+                "asin": "B0CABLE01",
+                "title": "Reusable Silicone Cable Organizer Clips for Desk",
+                "role": "selected",
+                "score": 97,
+                "score_parts": {
+                  "estimated_sales": 40,
+                  "review_depth": 20,
+                  "rating_window": 15,
+                  "pain_point_gap": 15,
+                  "price_position": 7
+                },
+                "signals": {
+                  "price": 18.99,
+                  "rating": 4.2,
+                  "review_count": 420,
+                  "estimated_monthly_sales": 924,
+                  "weaknesses": [
+                    "adhesive",
+                    "too bulky",
+                    "size mismatch"
+                  ]
+                },
+                "why": [
+                  "综合候选分 97/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                  "预估月销 924，评论数 420，评分 4.2。",
+                  "评论弱点命中 adhesive, too bulky, size mismatch，说明存在可改良/差异化空间。",
+                  "这是当前进入后续 Listing/合规链路的主推候选。"
+                ]
+              },
+              {
+                "asin": "B0CABLE02",
+                "title": "Low Profile Cord Holder for Home Office",
+                "role": "candidate",
+                "score": 59,
+                "score_parts": {
+                  "estimated_sales": 17,
+                  "review_depth": 12,
+                  "rating_window": 15,
+                  "pain_point_gap": 5,
+                  "price_position": 10
+                },
+                "signals": {
+                  "price": 21.99,
+                  "rating": 4.0,
+                  "review_count": 260,
+                  "estimated_monthly_sales": 390,
+                  "weaknesses": [
+                    "adhesive"
+                  ]
+                },
+                "why": [
+                  "综合候选分 59/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                  "预估月销 390，评论数 260，评分 4.0。",
+                  "评论弱点命中 adhesive，说明存在可改良/差异化空间。",
+                  "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+                ]
+              }
+            ]
+          },
+          "output": [
+            {
+              "claim": "候选池 2 条，当前主推 B0CABLE01。",
+              "evidence": "主推来自 product.attributes.source_parent_asin；候选池来自 matched metadata rows。",
+              "source": "ProductResearchRequest.product.attributes.source_parent_asin / competitors[]"
+            },
+            {
+              "claim": "主推需求信号强于对照：预估月销 924 vs 390，评论 420 vs 260。",
+              "evidence": "estimated_monthly_sales 由 review_count 与 rating 的本地规则估算；不是 Amazon 实时销量。",
+              "source": "competitors[].estimated_monthly_sales / competitors[].review_count"
+            },
+            {
+              "claim": "利润项得分 78/100，粗算毛利空间 48.6%。",
+              "evidence": "target_price=21.99, landed_cost=11.3, formula=(target_price-landed_cost)/target_price。",
+              "source": "ProductResearchRequest.target_price / cost_model.total_landed_cost()"
+            },
+            {
+              "claim": "评论痛点命中 adhesive, too bulky, size mismatch。",
+              "evidence": "这些痛点来自 3 星及以下评论的关键词匹配，只能说明改良方向，不能直接证明市场规模。",
+              "source": "pain_points[].topic / pain_points[].example / pain_points[].source_asins"
+            },
+            {
+              "claim": "物流分 82/100，合规分 86/100。",
+              "evidence": "物流基于 weight/hazmat flags；合规基于标题/类目/features/claims 和 precheck flags，未发现阻断项。",
+              "source": "logistics / compliance_precheck / product claims"
+            }
+          ]
+        },
+        {
+          "step": "demand",
+          "name": "需求判断",
+          "question": "市场是否有基本需求？",
+          "inputs": [
+            "competitor_estimated_sales",
+            "review_pain_points"
+          ],
+          "calculation": "竞品预估月销样本 [924, 390]，再叠加痛点权重 14。",
+          "evidence": {
+            "score": 71,
+            "competitor_sales": [
+              924,
+              390
+            ]
+          },
+          "output": "需求分 71/100。"
+        },
+        {
+          "step": "profitability",
+          "name": "利润判断",
+          "question": "扣掉成本后是否还有空间？",
+          "inputs": [
+            "target_price",
+            "cost_model"
+          ],
+          "calculation": "目标售价 $21.99 - 全成本 $11.3。",
+          "evidence": {
+            "score": 78,
+            "target_price": 21.99,
+            "landed_cost": 11.3
+          },
+          "output": "利润分 78/100。"
+        },
+        {
+          "step": "competition",
+          "name": "竞争判断",
+          "question": "是否有差异化切入点？",
+          "inputs": [
+            "competitor_count",
+            "avg_rating",
+            "weaknesses"
+          ],
+          "calculation": "候选池数量、平均评分和评论弱点共同判断竞争压力与改良空间。",
+          "evidence": {
+            "score": 85,
+            "weaknesses": [
+              [
+                "adhesive",
+                "too bulky",
+                "size mismatch"
+              ],
+              [
+                "adhesive"
+              ]
+            ]
+          },
+          "output": "竞争分 85/100。"
+        },
+        {
+          "step": "logistics_compliance",
+          "name": "物流与合规预检",
+          "question": "是否存在发布前就应该阻断的硬风险？",
+          "inputs": [
+            "weight",
+            "hazmat_flags",
+            "compliance_precheck"
+          ],
+          "calculation": "重量/尺寸/电池/液体/侵权/医疗/儿童/杀菌等风险扣分。",
+          "evidence": {
+            "logistics_score": 82,
+            "compliance_score": 86
+          },
+          "output": "物流 82/100，合规 86/100。"
+        },
+        {
+          "step": "final_decision",
+          "name": "最终路由",
+          "question": "是否进入 Listing 和合规链路？",
+          "inputs": [
+            "score_breakdown",
+            "blocking_risks"
+          ],
+          "calculation": "总分 = 需求25% + 利润25% + 竞争20% + 物流15% + 合规15%。",
+          "evidence": {
+            "score": 79,
+            "decision": "pass",
+            "score_breakdown": {
+              "demand": 71,
+              "profitability": 78,
+              "competition": 85,
+              "logistics": 82,
+              "compliance": 86
+            }
+          },
+          "output": "pass，机会分 79/100。"
+        }
+      ],
+      "selection_rationale": [
+        {
+          "claim": "候选池 2 条，当前主推 B0CABLE01。",
+          "evidence": "主推来自 product.attributes.source_parent_asin；候选池来自 matched metadata rows。",
+          "source": "ProductResearchRequest.product.attributes.source_parent_asin / competitors[]"
+        },
+        {
+          "claim": "主推需求信号强于对照：预估月销 924 vs 390，评论 420 vs 260。",
+          "evidence": "estimated_monthly_sales 由 review_count 与 rating 的本地规则估算；不是 Amazon 实时销量。",
+          "source": "competitors[].estimated_monthly_sales / competitors[].review_count"
+        },
+        {
+          "claim": "利润项得分 78/100，粗算毛利空间 48.6%。",
+          "evidence": "target_price=21.99, landed_cost=11.3, formula=(target_price-landed_cost)/target_price。",
+          "source": "ProductResearchRequest.target_price / cost_model.total_landed_cost()"
+        },
+        {
+          "claim": "评论痛点命中 adhesive, too bulky, size mismatch。",
+          "evidence": "这些痛点来自 3 星及以下评论的关键词匹配，只能说明改良方向，不能直接证明市场规模。",
+          "source": "pain_points[].topic / pain_points[].example / pain_points[].source_asins"
+        },
+        {
+          "claim": "物流分 82/100，合规分 86/100。",
+          "evidence": "物流基于 weight/hazmat flags；合规基于标题/类目/features/claims 和 precheck flags，未发现阻断项。",
+          "source": "logistics / compliance_precheck / product claims"
+        }
+      ],
+      "issues": [],
+      "suggestions": [
+        "Validate differentiation against top ASINs before purchasing inventory.",
+        "Turn high-frequency review pain points into product requirements and listing bullets."
+      ],
+      "human_review_required": false,
+      "audit": {
+        "research_id": "rsch_c529b0d01dce",
+        "workflow_id": "wf_demo_crossborder_pipeline",
+        "tool": "crossborder.product_research",
+        "runtime": "deterministic_rules",
+        "input_hash": "48671ea0916f486cb44d5b0c25a6d6b1711975146a8dcb322acab4b8c73dbb97",
+        "created_at": "2026-06-28T03:25:49.231561+00:00",
+        "version": "product-research-v2",
+        "platform": "amazon"
+      }
+    },
+    "listing_generation": {
+      "decision": "pass",
+      "listing": {
+        "title": "DeskMate Reusable Silicone Cable Organizer Clips for Desk Compact cable clips, Reusable silicone, Easy setup",
+        "bullets": [
+          "Compact cable clips",
+          "Reusable silicone",
+          "Easy setup"
+        ],
+        "description": "Reusable Silicone Cable Organizer Clips for Desk is designed for practical, everyday use. Compact cable clips Reusable silicone Easy setup",
+        "search_terms": [
+          "Cable Organizer",
+          "adhesive",
+          "too bulky",
+          "size mismatch",
+          "Compact cable clips",
+          "Reusable silicone",
+          "Easy setup"
+        ],
+        "image_urls": [],
+        "image_paths": []
+      },
+      "confidence": 0.92,
+      "issues": [],
+      "suggestions": [
+        "Listing draft is ready for platform rules and compliance review."
+      ],
+      "human_review_required": false,
+      "audit": {
+        "listing_id": "lst_cb2525e44e94",
+        "workflow_id": "wf_demo_crossborder_pipeline",
+        "tool": "crossborder.listing.generate",
+        "runtime": "deterministic_template",
+        "platform_policy": "amazon",
+        "input_hash": "4fb1326b439d014d150b577bf14e49f8e3c3f039db88688ae7e0c7e612b091a2",
+        "created_at": "2026-06-28T03:25:49.231873+00:00",
+        "version": "listing-generator-v1"
+      }
+    },
+    "compliance_check": {
+      "decision": "pass",
+      "risk_level": "low",
+      "confidence": 1.0,
+      "risk_categories": [],
+      "issues": [],
+      "required_documents": [],
+      "suggested_rewrite": {},
+      "human_review_required": false,
+      "evidence": [
+        {
+          "source": "offline_demo_stub",
+          "title": "Compliance skipped",
+          "summary": "Compliance runtime is not installed in this environment; falling back to offline demo stub: strands."
+        }
+      ],
+      "audit": {
+        "check_id": "offline_compliance_dependency_missing",
+        "workflow_id": "wf_demo_crossborder_pipeline",
+        "model": "offline",
+        "policy_version": "offline-demo",
+        "ruleset_version": "offline-demo",
+        "tool_contract_version": "compliance-tool-v1"
+      }
+    },
+    "ads_diagnostic": {
+      "decision": "requires_human_review",
+      "risk_level": "high",
+      "metrics": {
+        "campaign_count": 2,
+        "row_count": 2,
+        "impressions": 12300,
+        "clicks": 150,
+        "spend": 135.0,
+        "sales": 120.0,
+        "orders": 4,
+        "units": 4,
+        "ctr": 0.0122,
+        "cvr": 0.0267,
+        "acos": 1.125,
+        "roas": 0.8889,
+        "cpc": 0.9,
+        "cpa": 33.75
+      },
+      "issues": [
+        {
+          "category": "low_cvr",
+          "severity": "high",
+          "reason": "CVR is low after enough clicks to judge conversion.",
+          "suggestion": "Tighten keywords and improve listing page conversion before scaling spend."
+        },
+        {
+          "category": "high_acos",
+          "severity": "high",
+          "reason": "ACOS is materially above target.",
+          "suggestion": "Reduce bids on inefficient terms and separate winners from exploration campaigns."
+        }
+      ],
+      "recommendations": [
+        {
+          "category": "listing_conversion",
+          "text": "Review listing quality, reviews, offer, delivery promise, and keyword intent; avoid scaling traffic until conversion improves."
+        },
+        {
+          "category": "budget_control",
+          "text": "Lower bids or pause inefficient ad groups, but route budget changes through Action Gate."
+        }
+      ],
+      "suggested_actions": [
+        {
+          "action_type": "add_negative_keyword",
+          "reason": "Non-converting search terms should be reviewed for negative targeting.",
+          "requires_human_review": true
+        },
+        {
+          "action_type": "pause_campaign",
+          "reason": "Campaign has inefficient or wasteful spend signals.",
+          "requires_human_review": true
+        }
+      ],
+      "gated_actions": [
+        {
+          "action_type": "add_negative_keyword",
+          "suggested_action": {
+            "action_type": "add_negative_keyword",
+            "reason": "Non-converting search terms should be reviewed for negative targeting.",
+            "requires_human_review": true
+          },
+          "gate_decision": "requires_human_review",
+          "allowed": false,
+          "human_review_required": true,
+          "reasons": [
+            "Missing required permissions: ads_manage.",
+            "Risk level is high; route to human review."
+          ],
+          "required_permissions": [
+            "ads_manage"
+          ],
+          "gate_id": "gate_9042a8f968c3"
+        },
+        {
+          "action_type": "pause_campaign",
+          "suggested_action": {
+            "action_type": "pause_campaign",
+            "reason": "Campaign has inefficient or wasteful spend signals.",
+            "requires_human_review": true
+          },
+          "gate_decision": "requires_human_review",
+          "allowed": false,
+          "human_review_required": true,
+          "reasons": [
+            "Missing required permissions: ads_manage.",
+            "Risk level is high; route to human review."
+          ],
+          "required_permissions": [
+            "ads_manage"
+          ],
+          "gate_id": "gate_56953389d56f"
+        }
+      ],
+      "human_review_required": true,
+      "audit": {
+        "diagnostic_id": "ads_880dff60de76",
+        "workflow_id": "wf_demo_crossborder_pipeline",
+        "tool": "crossborder.ads.diagnose",
+        "runtime": "deterministic_metrics_rules",
+        "input_hash": "e19e7ebe136f0b52393eb4f6f767947663992ae98b428a27d0e6903011eedf93",
+        "created_at": "2026-06-28T03:25:49.253825+00:00",
+        "version": "ads-diagnostic-v1"
+      }
+    },
+    "customer_service": {
+      "decision": "requires_human_review",
+      "intent": "refund_request",
+      "sentiment": "negative",
+      "urgency": "high",
+      "draft_reply": "Hello, thank you for contacting us. I am sorry to hear there is an issue about Reusable Silicone Cable Organizer Clips for Desk. We have received your refund request and will review the order details according to the marketplace policy. Please do not send the item back until we confirm the next step.",
+      "issues": [
+        {
+          "category": "high_touch_customer_case",
+          "severity": "high",
+          "reason": "Message indicates refund, complaint, negative sentiment, or product failure risk.",
+          "suggestion": "Use draft reply only; route monetary or delivery commitments through Action Gate."
+        }
+      ],
+      "suggested_actions": [
+        {
+          "action_type": "send_reply",
+          "reason": "Send or queue the drafted customer service response.",
+          "requires_human_review": true
+        },
+        {
+          "action_type": "refund_order",
+          "reason": "Buyer explicitly requested a refund.",
+          "requires_human_review": true
+        }
+      ],
+      "gated_actions": [
+        {
+          "action_type": "send_reply",
+          "suggested_action": {
+            "action_type": "send_reply",
+            "reason": "Send or queue the drafted customer service response.",
+            "requires_human_review": true
+          },
+          "gate_decision": "requires_human_review",
+          "allowed": false,
+          "human_review_required": true,
+          "reasons": [
+            "Risk level is high; route to human review."
+          ],
+          "required_permissions": [
+            "customer_message"
+          ],
+          "gate_id": "gate_ba7fad34186c"
+        },
+        {
+          "action_type": "refund_order",
+          "suggested_action": {
+            "action_type": "refund_order",
+            "reason": "Buyer explicitly requested a refund.",
+            "requires_human_review": true
+          },
+          "gate_decision": "requires_human_review",
+          "allowed": false,
+          "human_review_required": true,
+          "reasons": [
+            "High-risk marketplace/customer action requires human approval.",
+            "Missing required permissions: refund.",
+            "Risk level is high; route to human review."
+          ],
+          "required_permissions": [
+            "refund"
+          ],
+          "gate_id": "gate_6752875aa0cd"
+        }
+      ],
+      "human_review_required": true,
+      "audit": {
+        "response_id": "cs_9c85dc2b7fd5",
+        "workflow_id": "wf_demo_crossborder_pipeline",
+        "tool": "crossborder.customer_service.respond",
+        "runtime": "deterministic_intent_rules",
+        "input_hash": "0aa7d6223536cab765fa91320109546966e235c7b7702e7436637b7b8216f592",
+        "created_at": "2026-06-28T03:25:49.254253+00:00",
+        "version": "customer-service-v1"
+      }
+    }
+  },
+  "gate_summary": {
+    "total_actions": 4,
+    "decision_counts": {
+      "requires_human_review": 4
+    },
+    "blocked_or_human_review_actions": [
+      {
+        "action_type": "add_negative_keyword",
+        "gate_decision": "requires_human_review",
+        "reasons": [
+          "Missing required permissions: ads_manage.",
+          "Risk level is high; route to human review."
+        ]
+      },
+      {
+        "action_type": "pause_campaign",
+        "gate_decision": "requires_human_review",
+        "reasons": [
+          "Missing required permissions: ads_manage.",
+          "Risk level is high; route to human review."
+        ]
+      },
+      {
+        "action_type": "send_reply",
+        "gate_decision": "requires_human_review",
+        "reasons": [
+          "Risk level is high; route to human review."
+        ]
+      },
+      {
+        "action_type": "refund_order",
+        "gate_decision": "requires_human_review",
+        "reasons": [
+          "High-risk marketplace/customer action requires human approval.",
+          "Missing required permissions: refund.",
+          "Risk level is high; route to human review."
+        ]
+      }
+    ]
+  },
+  "audit_summary": {
+    "research_id": "rsch_c529b0d01dce",
+    "listing_id": "lst_cb2525e44e94",
+    "compliance_check_id": "offline_compliance_dependency_missing",
+    "ads_diagnostic_id": "ads_880dff60de76",
+    "customer_response_id": "cs_9c85dc2b7fd5",
+    "gate_ids": [
+      "gate_9042a8f968c3",
+      "gate_56953389d56f",
+      "gate_ba7fad34186c",
+      "gate_6752875aa0cd"
+    ]
+  },
+  "final_summary": {
+    "product_research_decision": "pass",
+    "listing_compliance_decision": "pass",
+    "ads_decision": "requires_human_review",
+    "customer_service_decision": "requires_human_review",
+    "ready_for_publish": true,
+    "human_review_required": true
+  }
+}

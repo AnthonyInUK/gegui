@@ -1,0 +1,47 @@
+{
+  "scene": "本地生活商家证照核验",
+  "legal_basis": "营业执照管理办法 / 食品经营许可管理办法 / 医疗器械监督管理条例",
+  "license_types": [
+    {
+      "id": "business_license",
+      "name": "营业执照",
+      "required_fields": ["统一社会信用代码", "名称", "经营范围", "成立日期", "营业期限", "登记机关"],
+      "validity_rule": "营业期限须在有效期内；'长期'视为有效",
+      "rule_basis": "《营业执照管理办法》：经营须持有效营业执照"
+    },
+    {
+      "id": "food_license",
+      "name": "食品经营许可证",
+      "required_fields": ["许可证编号", "经营者名称", "经营项目", "有效期"],
+      "validity_rule": "有效期通常 5 年，过期即不得经营食品",
+      "rule_basis": "《食品经营许可管理办法》：从事食品经营须取得许可证"
+    },
+    {
+      "id": "medical_device_license",
+      "name": "医疗器械经营许可证/备案",
+      "required_fields": ["许可证编号", "经营场所", "经营范围", "有效期"],
+      "validity_rule": "二三类医疗器械须许可，过期或超范围即违规",
+      "rule_basis": "《医疗器械监督管理条例》"
+    }
+  ],
+  "category_required_licenses": {
+    "description": "商家经营类目 → 必须持有的证照；缺证或经营范围不含即违规",
+    "mapping": {
+      "餐饮/食品": ["business_license", "food_license"],
+      "生鲜/预包装食品": ["business_license", "food_license"],
+      "医疗器械": ["business_license", "medical_device_license"],
+      "普通零售": ["business_license"],
+      "美容美发": ["business_license"]
+    }
+  },
+  "forgery_signals": {
+    "description": "疑似伪造/篡改的视觉迹象，命中需转人工核验",
+    "examples": [
+      "证件编号位数不符 / 含明显错别字",
+      "有效期字体与正文不一致（疑似 PS 篡改日期）",
+      "登记机关公章模糊、变形或缺失",
+      "证件名称与版式不匹配（套用模板）",
+      "经营范围与申请类目明显无关"
+    ]
+  }
+}

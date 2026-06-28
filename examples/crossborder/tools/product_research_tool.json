@@ -1,0 +1,101 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_tool_product_research_demo",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Reusable Silicone Cable Organizer Clips for Desk",
+    "category": "Cable Organizer",
+    "brand": "DeskMate",
+    "features": [
+      "Compact cable clips",
+      "Reusable silicone",
+      "Easy setup"
+    ],
+    "claims": [
+      "Designed for practical desk cable organization."
+    ],
+    "attributes": {
+      "source_parent_asin": "B0CABLE01",
+      "source_categories": [
+        "Office Products",
+        "Office Electronics Accessories",
+        "Cable Organizer"
+      ]
+    }
+  },
+  "target_price": 21.99,
+  "competitors": [
+    {
+      "asin": "B0CABLE01",
+      "title": "Reusable Silicone Cable Organizer Clips for Desk",
+      "brand": "DeskMate",
+      "price": 18.99,
+      "rating": 4.2,
+      "review_count": 420,
+      "estimated_monthly_sales": 924,
+      "weaknesses": [
+        "adhesive",
+        "too bulky",
+        "size mismatch"
+      ]
+    },
+    {
+      "asin": "B0CABLE02",
+      "title": "Low Profile Cord Holder for Home Office",
+      "brand": "CordNest",
+      "price": 21.99,
+      "rating": 4.0,
+      "review_count": 260,
+      "estimated_monthly_sales": 390,
+      "weaknesses": [
+        "adhesive"
+      ]
+    }
+  ],
+  "pain_points": [
+    {
+      "topic": "adhesive",
+      "frequency": 2,
+      "severity": 4,
+      "example": "The organizer looked nice but the adhesive falls off after a few days.",
+      "source_asins": [
+        "B0CABLE01",
+        "B0CABLE02"
+      ]
+    },
+    {
+      "topic": "too bulky",
+      "frequency": 1,
+      "severity": 3,
+      "example": "The clip is too bulky under my monitor stand.",
+      "source_asins": [
+        "B0CABLE01"
+      ]
+    }
+  ],
+  "cost_model": {
+    "unit_cost": 4.2,
+    "inbound_shipping": 0.5,
+    "referral_fee": 3.3,
+    "ads_cpa_estimate": 2.64,
+    "return_cost_allowance": 0.66
+  },
+  "logistics": {
+    "weight_kg": 0.12
+  },
+  "compliance_precheck": {
+    "trademark_risk": false,
+    "patent_risk": false,
+    "restricted_category": false,
+    "certificate_required": false,
+    "medical_claim_risk": false,
+    "pesticide_claim_risk": false,
+    "children_product_risk": false
+  },
+  "metadata": {
+    "source": "agent_tool_example",
+    "keyword": "cable organizer",
+    "category": "Office Products"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_customer_refund",
+  "seller_id": "seller_demo",
+  "order_id": "ORDER-1001",
+  "product_title": "Silicone Cable Organizer",
+  "buyer_message": "I am very disappointed. The adhesive falls off and I want a refund.",
+  "order_status": "delivered",
+  "delivery_status": "delivered",
+  "days_since_delivery": 8,
+  "return_window_days": 30,
+  "metadata": {
+    "permissions": [
+      "customer_message"
+    ]
+  }
+}

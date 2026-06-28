@@ -1,0 +1,39 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_ads_bad_acos",
+  "seller_id": "seller_demo",
+  "asin": "B0CABLE01",
+  "target_acos": 0.3,
+  "campaigns": [
+    {
+      "campaign_id": "cmp_001",
+      "campaign_name": "Cable Organizer Auto",
+      "keyword": "cable organizer",
+      "match_type": "auto",
+      "impressions": 8200,
+      "clicks": 96,
+      "spend": 86.4,
+      "sales": 120.0,
+      "orders": 4,
+      "units": 4
+    },
+    {
+      "campaign_id": "cmp_002",
+      "campaign_name": "Cable Clips Manual",
+      "keyword": "desk cable clips",
+      "match_type": "phrase",
+      "impressions": 4100,
+      "clicks": 54,
+      "spend": 48.6,
+      "sales": 0.0,
+      "orders": 0,
+      "units": 0
+    }
+  ],
+  "listing_context": {
+    "price": 21.99,
+    "rating": 4.2,
+    "review_count": 420
+  }
+}

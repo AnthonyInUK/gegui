@@ -1,0 +1,44 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_tool_ads_demo",
+  "seller_id": "seller_demo",
+  "asin": "B0CABLE01",
+  "target_acos": 0.3,
+  "min_clicks_for_conversion_judgment": 20,
+  "campaigns": [
+    {
+      "campaign_id": "cmp_auto_1",
+      "campaign_name": "Auto Cable Organizer",
+      "keyword": "cable organizer",
+      "impressions": 8200,
+      "clicks": 100,
+      "spend": 90.0,
+      "sales": 80.0,
+      "orders": 3,
+      "units": 3
+    },
+    {
+      "campaign_id": "cmp_exact_1",
+      "campaign_name": "Exact Cord Holder",
+      "keyword": "cord holder desk",
+      "impressions": 4100,
+      "clicks": 50,
+      "spend": 45.0,
+      "sales": 40.0,
+      "orders": 1,
+      "units": 1
+    }
+  ],
+  "listing_context": {
+    "title": "DeskMate Reusable Silicone Cable Organizer Clips for Desk"
+  },
+  "margin_context": {
+    "target_price": 21.99,
+    "landed_cost": 11.3
+  },
+  "permissions": [],
+  "metadata": {
+    "source": "agent_tool_example"
+  }
+}

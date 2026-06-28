@@ -1,0 +1,802 @@
+[
+  {
+    "id": "abs_plain_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "图内藏字",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "智能扫地机器人",
+      "image": "adversarial_cases/abs_plain_01.png"
+    }
+  },
+  {
+    "id": "abs_plain_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "图内藏字",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "蓝牙耳机",
+      "image": "adversarial_cases/abs_plain_02.png"
+    }
+  },
+  {
+    "id": "abs_plain_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "图内藏字",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "空气净化器",
+      "image": "adversarial_cases/abs_plain_03.png"
+    }
+  },
+  {
+    "id": "abs_plain_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "图内藏字",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "儿童学习桌",
+      "image": "adversarial_cases/abs_plain_04.png"
+    }
+  },
+  {
+    "id": "abs_split_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "拆字插符",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "高端护肤面霜",
+      "image": "adversarial_cases/abs_split_01.png"
+    }
+  },
+  {
+    "id": "abs_split_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "拆字插符",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "空气炸锅",
+      "image": "adversarial_cases/abs_split_02.png"
+    }
+  },
+  {
+    "id": "abs_split_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "拆字插符",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "运动鞋",
+      "image": "adversarial_cases/abs_split_03.png"
+    }
+  },
+  {
+    "id": "abs_split_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "拆字插符",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "床垫",
+      "image": "adversarial_cases/abs_split_04.png"
+    }
+  },
+  {
+    "id": "abs_split_05",
+    "scene": "ecommerce_ad",
+    "evasion_type": "拆字插符",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "吹风机",
+      "image": "adversarial_cases/abs_split_05.png"
+    }
+  },
+  {
+    "id": "abs_traditional_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "繁体异体",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "蓝牙耳机",
+      "image": "adversarial_cases/abs_traditional_01.png"
+    }
+  },
+  {
+    "id": "abs_traditional_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "繁体异体",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "保温杯",
+      "image": "adversarial_cases/abs_traditional_02.png"
+    }
+  },
+  {
+    "id": "abs_traditional_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "繁体异体",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "家用投影仪",
+      "image": "adversarial_cases/abs_traditional_03.png"
+    }
+  },
+  {
+    "id": "abs_traditional_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "繁体异体",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "行李箱",
+      "image": "adversarial_cases/abs_traditional_04.png"
+    }
+  },
+  {
+    "id": "abs_homophone_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "谐音替换",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "运动鞋",
+      "image": "adversarial_cases/abs_homophone_01.png"
+    }
+  },
+  {
+    "id": "abs_homophone_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "谐音替换",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "洗地机",
+      "image": "adversarial_cases/abs_homophone_02.png"
+    }
+  },
+  {
+    "id": "abs_homophone_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "谐音替换",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "电动牙刷",
+      "image": "adversarial_cases/abs_homophone_03.png"
+    }
+  },
+  {
+    "id": "abs_homophone_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "谐音替换",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "羽绒服",
+      "image": "adversarial_cases/abs_homophone_04.png"
+    }
+  },
+  {
+    "id": "abs_semantic_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "语义擦边",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "儿童学习桌",
+      "image": "adversarial_cases/abs_semantic_01.png"
+    }
+  },
+  {
+    "id": "abs_semantic_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "语义擦边",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "筋膜枪",
+      "image": "adversarial_cases/abs_semantic_02.png"
+    }
+  },
+  {
+    "id": "abs_semantic_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "语义擦边",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "智能门锁",
+      "image": "adversarial_cases/abs_semantic_03.png"
+    }
+  },
+  {
+    "id": "abs_semantic_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "语义擦边",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "家用咖啡机",
+      "image": "adversarial_cases/abs_semantic_04.png"
+    }
+  },
+  {
+    "id": "abs_symbol_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "符号规避",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "眼霜",
+      "image": "adversarial_cases/abs_symbol_01.png"
+    }
+  },
+  {
+    "id": "abs_symbol_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "符号规避",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "路由器",
+      "image": "adversarial_cases/abs_symbol_02.png"
+    }
+  },
+  {
+    "id": "abs_symbol_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "符号规避",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "电饭煲",
+      "image": "adversarial_cases/abs_symbol_03.png"
+    }
+  },
+  {
+    "id": "medical_cosmetic_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "保湿面霜 日常护理",
+      "image": "adversarial_cases/medical_cosmetic_01.png"
+    }
+  },
+  {
+    "id": "medical_cosmetic_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通护肤精华，焕亮肌肤",
+      "image": "adversarial_cases/medical_cosmetic_02.png"
+    }
+  },
+  {
+    "id": "medical_cosmetic_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "洗发水",
+      "image": "adversarial_cases/medical_cosmetic_03.png"
+    }
+  },
+  {
+    "id": "medical_cosmetic_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "身体乳",
+      "image": "adversarial_cases/medical_cosmetic_04.png"
+    }
+  },
+  {
+    "id": "medical_food_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "日常营养软糖",
+      "image": "adversarial_cases/medical_food_01.png"
+    }
+  },
+  {
+    "id": "medical_food_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "早餐麦片",
+      "image": "adversarial_cases/medical_food_02.png"
+    }
+  },
+  {
+    "id": "medical_food_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "蜂蜜饮品",
+      "image": "adversarial_cases/medical_food_03.png"
+    }
+  },
+  {
+    "id": "medical_food_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "医疗用语",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "植物饮料",
+      "image": "adversarial_cases/medical_food_04.png"
+    }
+  },
+  {
+    "id": "medical_false_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "夸大功效",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "颈椎按摩贴",
+      "image": "adversarial_cases/medical_false_01.png"
+    }
+  },
+  {
+    "id": "medical_false_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "夸大功效",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "睡眠喷雾",
+      "image": "adversarial_cases/medical_false_02.png"
+    }
+  },
+  {
+    "id": "medical_false_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "夸大功效",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "草本膏",
+      "image": "adversarial_cases/medical_false_03.png"
+    }
+  },
+  {
+    "id": "medical_false_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "夸大功效",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "足浴粉",
+      "image": "adversarial_cases/medical_false_04.png"
+    }
+  },
+  {
+    "id": "qualification_device_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "家用理疗仪 普通家电类目",
+      "image": "adversarial_cases/qualification_device_01.png"
+    }
+  },
+  {
+    "id": "qualification_device_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通按摩仪",
+      "image": "adversarial_cases/qualification_device_02.png"
+    }
+  },
+  {
+    "id": "qualification_bluehat_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通食品压片糖果",
+      "image": "adversarial_cases/qualification_bluehat_01.png"
+    }
+  },
+  {
+    "id": "qualification_bluehat_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通饮品",
+      "image": "adversarial_cases/qualification_bluehat_02.png"
+    }
+  },
+  {
+    "id": "qualification_cosmetic_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通妆字号面膜",
+      "image": "adversarial_cases/qualification_cosmetic_01.png"
+    }
+  },
+  {
+    "id": "qualification_cosmetic_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通防护乳",
+      "image": "adversarial_cases/qualification_cosmetic_02.png"
+    }
+  },
+  {
+    "id": "qualification_drug_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通保健贴",
+      "image": "adversarial_cases/qualification_drug_01.png"
+    }
+  },
+  {
+    "id": "qualification_drug_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "类目资质",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "草本茶",
+      "image": "adversarial_cases/qualification_drug_02.png"
+    }
+  },
+  {
+    "id": "cross_income_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "加入我们，时间自由，轻松实现财富梦想",
+      "image": "adversarial_cases/cross_income_01.png"
+    }
+  },
+  {
+    "id": "cross_income_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "副业项目，多劳多得，时间灵活",
+      "image": "adversarial_cases/cross_income_02.png"
+    }
+  },
+  {
+    "id": "cross_income_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "0经验也能做，收入上不封顶",
+      "image": "adversarial_cases/cross_income_03.png"
+    }
+  },
+  {
+    "id": "cross_income_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "宝妈副业，碎片时间也能做",
+      "image": "adversarial_cases/cross_income_04.png"
+    }
+  },
+  {
+    "id": "cross_income_05",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "在家兼职，适合新手",
+      "image": "adversarial_cases/cross_income_05.png"
+    }
+  },
+  {
+    "id": "cross_income_06",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "项目介绍，长期稳定",
+      "image": "adversarial_cases/cross_income_06.png"
+    }
+  },
+  {
+    "id": "cross_before_after_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通牙膏 日常清洁",
+      "image": "adversarial_cases/cross_before_after_01.png"
+    }
+  },
+  {
+    "id": "cross_before_after_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通护肤乳 日常保湿",
+      "image": "adversarial_cases/cross_before_after_02.png"
+    }
+  },
+  {
+    "id": "cross_before_after_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通洗发水",
+      "image": "adversarial_cases/cross_before_after_03.png"
+    }
+  },
+  {
+    "id": "cross_before_after_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "跨模态组合",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "普通眼霜",
+      "image": "adversarial_cases/cross_before_after_04.png"
+    }
+  },
+  {
+    "id": "qr_diversion_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "新品福利，详情见图片",
+      "image": "adversarial_cases/qr_diversion_01.png"
+    }
+  },
+  {
+    "id": "qr_diversion_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "限量款咨询",
+      "image": "adversarial_cases/qr_diversion_02.png"
+    }
+  },
+  {
+    "id": "qr_diversion_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "团购福利",
+      "image": "adversarial_cases/qr_diversion_03.png"
+    }
+  },
+  {
+    "id": "qr_diversion_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "售后咨询",
+      "image": "adversarial_cases/qr_diversion_04.png"
+    }
+  },
+  {
+    "id": "qr_diversion_05",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "同城自提",
+      "image": "adversarial_cases/qr_diversion_05.png"
+    }
+  },
+  {
+    "id": "qr_diversion_06",
+    "scene": "ecommerce_ad",
+    "evasion_type": "站外导流",
+    "expected_verdict": "VIOLATION",
+    "material": {
+      "text": "课程资料",
+      "image": "adversarial_cases/qr_diversion_06.png"
+    }
+  },
+  {
+    "id": "clean_normal_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "静音扫地机器人，大吸力，高性价比",
+      "image": "adversarial_cases/clean_normal_01.png"
+    }
+  },
+  {
+    "id": "clean_normal_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "不锈钢保温杯",
+      "image": "adversarial_cases/clean_normal_02.png"
+    }
+  },
+  {
+    "id": "clean_normal_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "补水保湿面霜",
+      "image": "adversarial_cases/clean_normal_03.png"
+    }
+  },
+  {
+    "id": "clean_normal_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "早餐燕麦片",
+      "image": "adversarial_cases/clean_normal_04.png"
+    }
+  },
+  {
+    "id": "clean_normal_05",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "汽车香薰，持久留香",
+      "image": "adversarial_cases/clean_normal_05.png"
+    }
+  },
+  {
+    "id": "clean_normal_06",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "家用收纳箱",
+      "image": "adversarial_cases/clean_normal_06.png"
+    }
+  },
+  {
+    "id": "clean_normal_07",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "电动牙刷",
+      "image": "adversarial_cases/clean_normal_07.png"
+    }
+  },
+  {
+    "id": "clean_normal_08",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "家用咖啡机",
+      "image": "adversarial_cases/clean_normal_08.png"
+    }
+  },
+  {
+    "id": "clean_promo_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常促销）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "夏季新款连衣裙",
+      "image": "adversarial_cases/clean_promo_01.png"
+    }
+  },
+  {
+    "id": "clean_promo_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常促销）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "儿童雨鞋",
+      "image": "adversarial_cases/clean_promo_02.png"
+    }
+  },
+  {
+    "id": "clean_promo_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常促销）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "厨房纸巾",
+      "image": "adversarial_cases/clean_promo_03.png"
+    }
+  },
+  {
+    "id": "clean_promo_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常促销）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "蓝牙音箱",
+      "image": "adversarial_cases/clean_promo_04.png"
+    }
+  },
+  {
+    "id": "clean_borderline_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常擦边词）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "夏季新款连衣裙",
+      "image": "adversarial_cases/clean_borderline_01.png"
+    }
+  },
+  {
+    "id": "clean_borderline_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常擦边词）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "运动水杯",
+      "image": "adversarial_cases/clean_borderline_02.png"
+    }
+  },
+  {
+    "id": "clean_borderline_03",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常擦边词）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "桌面小风扇",
+      "image": "adversarial_cases/clean_borderline_03.png"
+    }
+  },
+  {
+    "id": "clean_borderline_04",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常擦边词）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "无线鼠标",
+      "image": "adversarial_cases/clean_borderline_04.png"
+    }
+  },
+  {
+    "id": "clean_join_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常招聘）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "诚邀加入，按劳计酬，时间灵活",
+      "image": "adversarial_cases/clean_join_01.png"
+    }
+  },
+  {
+    "id": "clean_join_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常招聘）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "门店兼职，按小时计薪",
+      "image": "adversarial_cases/clean_join_02.png"
+    }
+  },
+  {
+    "id": "clean_health_01",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常健康描述）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "普通酸奶",
+      "image": "adversarial_cases/clean_health_01.png"
+    }
+  },
+  {
+    "id": "clean_health_02",
+    "scene": "ecommerce_ad",
+    "evasion_type": "无（正常健康描述）",
+    "expected_verdict": "PASS",
+    "material": {
+      "text": "普通护手霜",
+      "image": "adversarial_cases/clean_health_02.png"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_amazon_image_url",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Smart Sweeping Robot",
+    "category": "home_appliance",
+    "brand": "DemoBrand",
+    "features": [
+      "quiet cleaning",
+      "compact charging dock",
+      "daily floor maintenance"
+    ],
+    "claims": [
+      "designed for everyday cleaning"
+    ],
+    "materials": [
+      "ABS"
+    ],
+    "audience": "home users",
+    "image_urls": [
+      "http://127.0.0.1:8001/api/records/REV-F6A3E197/image?idx=0"
+    ]
+  }
+}

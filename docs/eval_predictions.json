@@ -1,0 +1,722 @@
+[
+  {
+    "id": "abs_plain_01",
+    "evasion_type": "图内藏字",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5698,
+    "latency_ms": 15008
+  },
+  {
+    "id": "abs_plain_02",
+    "evasion_type": "图内藏字",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5674,
+    "latency_ms": 14874
+  },
+  {
+    "id": "abs_plain_03",
+    "evasion_type": "图内藏字",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5677,
+    "latency_ms": 11786
+  },
+  {
+    "id": "abs_plain_04",
+    "evasion_type": "图内藏字",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5683,
+    "latency_ms": 16468
+  },
+  {
+    "id": "abs_split_01",
+    "evasion_type": "拆字插符",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5804,
+    "latency_ms": 14061
+  },
+  {
+    "id": "abs_split_02",
+    "evasion_type": "拆字插符",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5833,
+    "latency_ms": 16308
+  },
+  {
+    "id": "abs_split_03",
+    "evasion_type": "拆字插符",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5746,
+    "latency_ms": 21825
+  },
+  {
+    "id": "abs_split_04",
+    "evasion_type": "拆字插符",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5812,
+    "latency_ms": 13256
+  },
+  {
+    "id": "abs_split_05",
+    "evasion_type": "拆字插符",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5965,
+    "latency_ms": 13473
+  },
+  {
+    "id": "abs_traditional_01",
+    "evasion_type": "繁体异体",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5786,
+    "latency_ms": 16382
+  },
+  {
+    "id": "abs_traditional_02",
+    "evasion_type": "繁体异体",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5686,
+    "latency_ms": 12465
+  },
+  {
+    "id": "abs_traditional_03",
+    "evasion_type": "繁体异体",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5674,
+    "latency_ms": 14456
+  },
+  {
+    "id": "abs_traditional_04",
+    "evasion_type": "繁体异体",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5651,
+    "latency_ms": 12409
+  },
+  {
+    "id": "abs_homophone_01",
+    "evasion_type": "谐音替换",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5787,
+    "latency_ms": 18475
+  },
+  {
+    "id": "abs_homophone_02",
+    "evasion_type": "谐音替换",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5746,
+    "latency_ms": 13413
+  },
+  {
+    "id": "abs_homophone_03",
+    "evasion_type": "谐音替换",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5677,
+    "latency_ms": 16936
+  },
+  {
+    "id": "abs_homophone_04",
+    "evasion_type": "谐音替换",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 5843,
+    "latency_ms": 14564
+  },
+  {
+    "id": "abs_semantic_01",
+    "evasion_type": "语义擦边",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5673,
+    "latency_ms": 16126
+  },
+  {
+    "id": "abs_semantic_02",
+    "evasion_type": "语义擦边",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5703,
+    "latency_ms": 12404
+  },
+  {
+    "id": "abs_semantic_03",
+    "evasion_type": "语义擦边",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5668,
+    "latency_ms": 13637
+  },
+  {
+    "id": "abs_semantic_04",
+    "evasion_type": "语义擦边",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 10969,
+    "latency_ms": 38400
+  },
+  {
+    "id": "abs_symbol_01",
+    "evasion_type": "符号规避",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 5966,
+    "latency_ms": 13850
+  },
+  {
+    "id": "abs_symbol_02",
+    "evasion_type": "符号规避",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5893,
+    "latency_ms": 14160
+  },
+  {
+    "id": "abs_symbol_03",
+    "evasion_type": "符号规避",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5696,
+    "latency_ms": 10848
+  },
+  {
+    "id": "medical_cosmetic_01",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5998,
+    "latency_ms": 22559
+  },
+  {
+    "id": "medical_cosmetic_02",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5883,
+    "latency_ms": 24602
+  },
+  {
+    "id": "medical_cosmetic_03",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5779,
+    "latency_ms": 18123
+  },
+  {
+    "id": "medical_cosmetic_04",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5784,
+    "latency_ms": 16078
+  },
+  {
+    "id": "medical_food_01",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5816,
+    "latency_ms": 18713
+  },
+  {
+    "id": "medical_food_02",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5706,
+    "latency_ms": 14588
+  },
+  {
+    "id": "medical_food_03",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5751,
+    "latency_ms": 13050
+  },
+  {
+    "id": "medical_food_04",
+    "evasion_type": "医疗用语",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5882,
+    "latency_ms": 15846
+  },
+  {
+    "id": "medical_false_01",
+    "evasion_type": "夸大功效",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5647,
+    "latency_ms": 15012
+  },
+  {
+    "id": "medical_false_02",
+    "evasion_type": "夸大功效",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5691,
+    "latency_ms": 14856
+  },
+  {
+    "id": "medical_false_03",
+    "evasion_type": "夸大功效",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5850,
+    "latency_ms": 14661
+  },
+  {
+    "id": "medical_false_04",
+    "evasion_type": "夸大功效",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5895,
+    "latency_ms": 16046
+  },
+  {
+    "id": "qualification_device_01",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5759,
+    "latency_ms": 16665
+  },
+  {
+    "id": "qualification_device_02",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5786,
+    "latency_ms": 17016
+  },
+  {
+    "id": "qualification_bluehat_01",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5679,
+    "latency_ms": 11759
+  },
+  {
+    "id": "qualification_bluehat_02",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5874,
+    "latency_ms": 19012
+  },
+  {
+    "id": "qualification_cosmetic_01",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5707,
+    "latency_ms": 14686
+  },
+  {
+    "id": "qualification_cosmetic_02",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 5746,
+    "latency_ms": 11447
+  },
+  {
+    "id": "qualification_drug_01",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5753,
+    "latency_ms": 11919
+  },
+  {
+    "id": "qualification_drug_02",
+    "evasion_type": "类目资质",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5670,
+    "latency_ms": 13966
+  },
+  {
+    "id": "cross_income_01",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5729,
+    "latency_ms": 12222
+  },
+  {
+    "id": "cross_income_02",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "NEEDS_HUMAN",
+    "confidence": 0.675,
+    "tokens": 11181,
+    "latency_ms": 53504
+  },
+  {
+    "id": "cross_income_03",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5798,
+    "latency_ms": 14746
+  },
+  {
+    "id": "cross_income_04",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5829,
+    "latency_ms": 13471
+  },
+  {
+    "id": "cross_income_05",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.75,
+    "tokens": 5643,
+    "latency_ms": 11138
+  },
+  {
+    "id": "cross_income_06",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5688,
+    "latency_ms": 15084
+  },
+  {
+    "id": "cross_before_after_01",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5684,
+    "latency_ms": 13331
+  },
+  {
+    "id": "cross_before_after_02",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 1.0,
+    "tokens": 5720,
+    "latency_ms": 14665
+  },
+  {
+    "id": "cross_before_after_03",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5732,
+    "latency_ms": 14556
+  },
+  {
+    "id": "cross_before_after_04",
+    "evasion_type": "跨模态组合",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 5802,
+    "latency_ms": 16767
+  },
+  {
+    "id": "qr_diversion_01",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "NEEDS_HUMAN",
+    "confidence": 0.633,
+    "tokens": 10935,
+    "latency_ms": 44175
+  },
+  {
+    "id": "qr_diversion_02",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.787,
+    "tokens": 6019,
+    "latency_ms": 18817
+  },
+  {
+    "id": "qr_diversion_03",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.75,
+    "tokens": 10761,
+    "latency_ms": 35750
+  },
+  {
+    "id": "qr_diversion_04",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "PASS",
+    "confidence": 0.983,
+    "tokens": 5326,
+    "latency_ms": 8740
+  },
+  {
+    "id": "qr_diversion_05",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 10601,
+    "latency_ms": 36705
+  },
+  {
+    "id": "qr_diversion_06",
+    "evasion_type": "站外导流",
+    "expected": "VIOLATION",
+    "predicted": "VIOLATION",
+    "confidence": 0.95,
+    "tokens": 10618,
+    "latency_ms": 32725
+  },
+  {
+    "id": "clean_normal_01",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 0.933,
+    "tokens": 10509,
+    "latency_ms": 24655
+  },
+  {
+    "id": "clean_normal_02",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5333,
+    "latency_ms": 10181
+  },
+  {
+    "id": "clean_normal_03",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5296,
+    "latency_ms": 11337
+  },
+  {
+    "id": "clean_normal_04",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5316,
+    "latency_ms": 11579
+  },
+  {
+    "id": "clean_normal_05",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5353,
+    "latency_ms": 9720
+  },
+  {
+    "id": "clean_normal_06",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5315,
+    "latency_ms": 8687
+  },
+  {
+    "id": "clean_normal_07",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5310,
+    "latency_ms": 10472
+  },
+  {
+    "id": "clean_normal_08",
+    "evasion_type": "无（正常）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5302,
+    "latency_ms": 12061
+  },
+  {
+    "id": "clean_promo_01",
+    "evasion_type": "无（正常促销）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5321,
+    "latency_ms": 8751
+  },
+  {
+    "id": "clean_promo_02",
+    "evasion_type": "无（正常促销）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5298,
+    "latency_ms": 10240
+  },
+  {
+    "id": "clean_promo_03",
+    "evasion_type": "无（正常促销）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5325,
+    "latency_ms": 8009
+  },
+  {
+    "id": "clean_promo_04",
+    "evasion_type": "无（正常促销）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5336,
+    "latency_ms": 9221
+  },
+  {
+    "id": "clean_borderline_01",
+    "evasion_type": "无（正常擦边词）",
+    "expected": "PASS",
+    "predicted": "VIOLATION",
+    "confidence": 0.9,
+    "tokens": 10604,
+    "latency_ms": 33290
+  },
+  {
+    "id": "clean_borderline_02",
+    "evasion_type": "无（正常擦边词）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5313,
+    "latency_ms": 7823
+  },
+  {
+    "id": "clean_borderline_03",
+    "evasion_type": "无（正常擦边词）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 0.983,
+    "tokens": 5283,
+    "latency_ms": 7995
+  },
+  {
+    "id": "clean_borderline_04",
+    "evasion_type": "无（正常擦边词）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5321,
+    "latency_ms": 9175
+  },
+  {
+    "id": "clean_join_01",
+    "evasion_type": "无（正常招聘）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 0.983,
+    "tokens": 5324,
+    "latency_ms": 9307
+  },
+  {
+    "id": "clean_join_02",
+    "evasion_type": "无（正常招聘）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5316,
+    "latency_ms": 6607
+  },
+  {
+    "id": "clean_health_01",
+    "evasion_type": "无（正常健康描述）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5297,
+    "latency_ms": 8516
+  },
+  {
+    "id": "clean_health_02",
+    "evasion_type": "无（正常健康描述）",
+    "expected": "PASS",
+    "predicted": "PASS",
+    "confidence": 1.0,
+    "tokens": 5298,
+    "latency_ms": 13772
+  }
+]

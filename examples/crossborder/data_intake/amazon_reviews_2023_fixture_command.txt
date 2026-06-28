@@ -1,0 +1,9 @@
+.venv/bin/python src/crossborder/data_intake/amazon_reviews_2023_loader.py \
+  --meta tests/crossborder/fixtures/amazon_reviews_2023/meta_sample.jsonl \
+  --reviews tests/crossborder/fixtures/amazon_reviews_2023/review_sample.jsonl \
+  --keyword "cable organizer" \
+  --category "Office Products" \
+  --unit-cost 4.2 \
+  --max-competitors 5 \
+  --run-research \
+  --output examples/crossborder/data_intake/generated_cable_organizer_research.json

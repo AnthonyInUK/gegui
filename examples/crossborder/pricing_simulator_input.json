@@ -1,0 +1,11 @@
+{
+  "sale_price": 40.0,
+  "unit_cost": 8.0,
+  "inbound_shipping_per_unit": 2.0,
+  "referral_fee_pct": 0.15,
+  "fba_fee": 5.0,
+  "storage_fee_per_unit": 0.5,
+  "ads_acos": 0.15,
+  "return_rate": 0.03,
+  "other_per_unit": 0.0
+}

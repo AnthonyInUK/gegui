@@ -1,0 +1,98 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_product_research_amazon_v2",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Silicone Cable Organizer",
+    "category": "home_office",
+    "brand": "DemoBrand",
+    "features": [
+      "compact",
+      "reusable",
+      "easy setup"
+    ],
+    "claims": [
+      "keeps desk cables tidy"
+    ],
+    "materials": [
+      "silicone"
+    ]
+  },
+  "target_price": 19.99,
+  "monthly_search_volume": 18000,
+  "competitors": [
+    {
+      "asin": "B000TEST01",
+      "title": "Cable Clips for Desk",
+      "brand": "CompetitorA",
+      "price": 18.99,
+      "rating": 4.2,
+      "review_count": 420,
+      "estimated_monthly_sales": 900,
+      "prime": true,
+      "listing_quality_score": 72,
+      "weaknesses": [
+        "adhesive falls off"
+      ]
+    },
+    {
+      "asin": "B000TEST02",
+      "title": "Reusable Cord Holder",
+      "brand": "CompetitorB",
+      "price": 21.99,
+      "rating": 4.0,
+      "review_count": 260,
+      "estimated_monthly_sales": 650,
+      "prime": true,
+      "listing_quality_score": 68,
+      "weaknesses": [
+        "too bulky"
+      ]
+    }
+  ],
+  "pain_points": [
+    {
+      "topic": "adhesive falls off",
+      "frequency": 18,
+      "severity": 4,
+      "example": "Reviewers complain the clip falls off after a few days.",
+      "source_asins": [
+        "B000TEST01"
+      ]
+    },
+    {
+      "topic": "too bulky",
+      "frequency": 9,
+      "severity": 3,
+      "example": "Reviewers want a lower profile organizer.",
+      "source_asins": [
+        "B000TEST02"
+      ]
+    }
+  ],
+  "cost_model": {
+    "unit_cost": 4.2,
+    "inbound_shipping": 0.7,
+    "referral_fee": 3.0,
+    "fulfillment_fee": 3.8,
+    "ads_cpa_estimate": 2.2,
+    "return_cost_allowance": 0.4
+  },
+  "logistics": {
+    "weight_kg": 0.12,
+    "length_cm": 8,
+    "width_cm": 4,
+    "height_cm": 2
+  },
+  "compliance_precheck": {
+    "trademark_risk": false,
+    "patent_risk": false,
+    "restricted_category": false,
+    "certificate_required": false,
+    "medical_claim_risk": false,
+    "notes": [
+      "No obvious regulated claims in supplied title/features."
+    ]
+  }
+}

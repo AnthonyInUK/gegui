@@ -1,0 +1,29 @@
+{
+  "workflow_id": "wf_improvement_demo",
+  "seller_id": "seller_demo",
+  "product_title": "Reusable Silicone Cable Organizer Clips for Desk",
+  "keyword": "cable organizer",
+  "pain_points": [
+    {
+      "topic": "adhesive",
+      "frequency": 8,
+      "severity": 4,
+      "example": "The organizer looked nice but the adhesive falls off after a few days.",
+      "source_asins": ["B0CABLE01", "B0CABLE02"]
+    },
+    {
+      "topic": "too bulky",
+      "frequency": 3,
+      "severity": 3,
+      "example": "Too bulky for the side of my desk.",
+      "source_asins": ["B0CABLE01"]
+    },
+    {
+      "topic": "size mismatch",
+      "frequency": 2,
+      "severity": 3,
+      "example": "The clip does not fit thicker cords.",
+      "source_asins": ["B0CABLE03"]
+    }
+  ]
+}

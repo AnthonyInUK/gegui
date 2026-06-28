@@ -1,0 +1,9 @@
+# 通用多模态审核引擎
+strands-agents[openai]>=1.0.0   # Strands SDK + OpenAI 兼容 provider（接 Qwen / DeepSeek）
+pydantic>=2.7.0                 # 结构化审核结论
+python-dotenv>=1.0.0            # .env 加载
+rich>=13.7.0                    # CLI 展示
+pillow>=10.0.0                  # 图片读取/编码（多模态输入）
+fastapi>=0.110.0               # Web 看板后端
+uvicorn[standard]>=0.30.0      # ASGI 服务器
+mcp>=1.27.0                    # MCP Server：把合规 Agent 暴露给外部 Agent 平台

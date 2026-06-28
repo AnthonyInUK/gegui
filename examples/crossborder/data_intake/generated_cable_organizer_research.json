@@ -1,0 +1,213 @@
+{
+  "request": {
+    "platform": "amazon",
+    "market": "US",
+    "product": {
+      "title": "Reusable Silicone Cable Organizer Clips for Desk",
+      "category": "Cable Organizer",
+      "brand": "DeskMate",
+      "sku": "",
+      "features": [
+        "Compact cable clips",
+        "Reusable silicone",
+        "Easy setup"
+      ],
+      "claims": [
+        "Keeps desk cables tidy for home office use."
+      ],
+      "materials": [],
+      "audience": "",
+      "image_urls": [
+        "https://example.com/cable01.jpg"
+      ],
+      "image_paths": [],
+      "documents": [],
+      "attributes": {
+        "source_parent_asin": "B0CABLE01",
+        "source_categories": [
+          "Office Products",
+          "Office Electronics Accessories",
+          "Cable Organizer"
+        ],
+        "average_rating": 4.2,
+        "rating_number": 420
+      }
+    },
+    "workflow_id": "wf_public_amazon_cable_organizer",
+    "seller_id": "",
+    "target_price": 21.99,
+    "landed_cost": null,
+    "monthly_search_volume": null,
+    "competitor_count": null,
+    "avg_rating": null,
+    "review_pain_points": [],
+    "competitors": [
+      {
+        "asin": "B0CABLE01",
+        "title": "Reusable Silicone Cable Organizer Clips for Desk",
+        "brand": "DeskMate",
+        "price": 18.99,
+        "rating": 4.2,
+        "review_count": 420,
+        "estimated_monthly_sales": 924,
+        "bsr": null,
+        "prime": null,
+        "seller_count": null,
+        "listing_quality_score": 100,
+        "strengths": [],
+        "weaknesses": [
+          "adhesive",
+          "too bulky",
+          "size mismatch"
+        ]
+      },
+      {
+        "asin": "B0CABLE02",
+        "title": "Low Profile Cord Holder for Home Office",
+        "brand": "CordCo",
+        "price": 21.99,
+        "rating": 4.0,
+        "review_count": 260,
+        "estimated_monthly_sales": 390,
+        "bsr": null,
+        "prime": null,
+        "seller_count": null,
+        "listing_quality_score": 100,
+        "strengths": [],
+        "weaknesses": [
+          "adhesive"
+        ]
+      }
+    ],
+    "pain_points": [
+      {
+        "topic": "adhesive",
+        "frequency": 2,
+        "severity": 4,
+        "example": "The organizer looked nice but the adhesive falls off after a few days.",
+        "source_asins": [
+          "B0CABLE01",
+          "B0CABLE02"
+        ]
+      },
+      {
+        "topic": "too bulky",
+        "frequency": 1,
+        "severity": 3,
+        "example": "It works but feels too bulky for a small desk.",
+        "source_asins": [
+          "B0CABLE01"
+        ]
+      },
+      {
+        "topic": "size mismatch",
+        "frequency": 1,
+        "severity": 3,
+        "example": "It works but feels too bulky for a small desk.",
+        "source_asins": [
+          "B0CABLE01"
+        ]
+      }
+    ],
+    "cost_model": {
+      "unit_cost": 4.2,
+      "inbound_shipping": 0.5,
+      "duty": null,
+      "prep_packaging": null,
+      "referral_fee": 3.3,
+      "fulfillment_fee": null,
+      "storage_fee_monthly": null,
+      "ads_cpa_estimate": 2.64,
+      "return_cost_allowance": 0.66,
+      "other_costs": null
+    },
+    "logistics": {
+      "weight_kg": 0.119,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "oversized": false,
+      "fragile": false,
+      "battery": false,
+      "liquid": false,
+      "magnet": false,
+      "hazmat": false,
+      "meltable": false
+    },
+    "compliance_precheck": {
+      "trademark_risk": false,
+      "patent_risk": false,
+      "restricted_category": false,
+      "certificate_required": false,
+      "medical_claim_risk": false,
+      "pesticide_claim_risk": false,
+      "children_product_risk": false,
+      "notes": []
+    },
+    "data_intake_report": {
+      "source": "amazon_reviews_2023_public_jsonl",
+      "raw_meta_rows": 3,
+      "raw_review_rows": 4,
+      "matched_items": 2,
+      "matched_reviews": 4,
+      "generated_competitors": 2,
+      "generated_pain_points": 3,
+      "missing_fields": {
+        "price": 0,
+        "average_rating": 0,
+        "review_count": 0,
+        "images": 0,
+        "features": 0,
+        "weight": 0,
+        "unit_cost": 0
+      },
+      "inferred_fields": [
+        "ads_cpa_estimate_from_target_price",
+        "estimated_monthly_sales_from_review_count",
+        "inbound_shipping_from_unit_cost",
+        "referral_fee_from_target_price",
+        "return_cost_allowance_from_target_price",
+        "target_price_from_competitor_median"
+      ],
+      "warnings": []
+    },
+    "metadata": {
+      "source": "amazon_reviews_2023_public_jsonl",
+      "keyword": "cable organizer",
+      "category": "Office Products",
+      "meta_path": "tests/crossborder/fixtures/amazon_reviews_2023/meta_sample.jsonl",
+      "review_path": "tests/crossborder/fixtures/amazon_reviews_2023/review_sample.jsonl",
+      "matched_items": 2,
+      "matched_reviews": 4
+    }
+  },
+  "research_result": {
+    "decision": "pass",
+    "opportunity_level": "high",
+    "score": 79,
+    "confidence": 0.82,
+    "score_breakdown": {
+      "demand": 71,
+      "profitability": 78,
+      "competition": 85,
+      "logistics": 82,
+      "compliance": 86
+    },
+    "issues": [],
+    "suggestions": [
+      "Validate differentiation against top ASINs before purchasing inventory.",
+      "Turn high-frequency review pain points into product requirements and listing bullets."
+    ],
+    "human_review_required": false,
+    "audit": {
+      "research_id": "rsch_660844a5cc69",
+      "workflow_id": "wf_public_amazon_cable_organizer",
+      "tool": "crossborder.product_research",
+      "runtime": "deterministic_rules",
+      "input_hash": "183089f410420e3e181665427ff097a696254465caebeaeca15bf59e6234b7b5",
+      "created_at": "2026-06-20T06:15:38.510461+00:00",
+      "version": "product-research-v2",
+      "platform": "amazon"
+    }
+  }
+}

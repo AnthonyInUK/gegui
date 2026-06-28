@@ -1,0 +1,48 @@
+{
+  "platform": "amazon",
+  "market": "US",
+  "workflow_id": "wf_tool_listing_demo",
+  "seller_id": "seller_demo",
+  "product": {
+    "title": "Reusable Silicone Cable Organizer Clips for Desk",
+    "category": "Cable Organizer",
+    "brand": "DeskMate",
+    "features": [
+      "Compact cable clips",
+      "Reusable silicone",
+      "Easy setup"
+    ],
+    "claims": [
+      "Designed for practical desk cable organization."
+    ],
+    "materials": [
+      "silicone"
+    ]
+  },
+  "keyword_hints": [
+    "cable organizer",
+    "cord holder",
+    "desk cable clips"
+  ],
+  "pain_points": [
+    {
+      "topic": "adhesive",
+      "frequency": 2,
+      "severity": 4,
+      "example": "The adhesive falls off after a few days."
+    },
+    {
+      "topic": "too bulky",
+      "frequency": 1,
+      "severity": 3,
+      "example": "The clip is too bulky under my monitor stand."
+    }
+  ],
+  "compliance_constraints": {
+    "avoid_absolute_claims": true,
+    "avoid_medical_claims": true
+  },
+  "metadata": {
+    "source": "agent_tool_example"
+  }
+}

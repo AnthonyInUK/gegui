@@ -1,0 +1,2528 @@
+{
+  "seed_keyword": "neck massager",
+  "opportunities": [
+    {
+      "keyword": "electric neck massager",
+      "score": 91.6,
+      "rank": 1,
+      "signals": [
+        {
+          "kind": "trend_momentum",
+          "provider": "google_trends",
+          "score": 100.0,
+          "provenance": "cached",
+          "confidence": 0.8,
+          "evidence": "搜索热度 12 个月变化 +3462%（近期热度水平 54/100）。",
+          "detail": {
+            "slope_pct": 3461.9,
+            "recent_level": 54.2,
+            "series_points": 53,
+            "rising_query_count": 0
+          }
+        },
+        {
+          "kind": "absolute_demand",
+          "provider": "review_volume_proxy",
+          "score": 100.0,
+          "provenance": "proxy",
+          "confidence": 0.55,
+          "evidence": "Top 10 竞品累计 3,389 条评论（销量代理，非真实销量）。",
+          "detail": {
+            "pool_size": 10,
+            "total_reviews": 3389,
+            "top_review_count": 2131
+          }
+        },
+        {
+          "kind": "differentiation",
+          "provider": "review_pain_density",
+          "score": 69.4,
+          "provenance": "proxy",
+          "confidence": 0.7,
+          "evidence": "头部竞品差评率 22%，主要痛点：做工差/易坏×49、电池/续航×14、难用/说明差×10。差评越集中越好打。",
+          "detail": {
+            "covered_competitors": 10,
+            "negative_rate": 0.222,
+            "top_pains": [
+              [
+                "做工差/易坏",
+                49
+              ],
+              [
+                "电池/续航",
+                14
+              ],
+              [
+                "难用/说明差",
+                10
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "surge",
+          "provider": "amazon_bestsellers_snapshot",
+          "score": 96.4,
+          "provenance": "snapshot",
+          "confidence": 0.6,
+          "evidence": "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。",
+          "detail": {
+            "rank": 7,
+            "is_mover": true
+          }
+        }
+      ],
+      "discovery_source": "trends_rising",
+      "contribution": {
+        "trend_momentum": 30.0,
+        "absolute_demand": 25.0,
+        "differentiation": 17.4,
+        "surge": 19.3
+      },
+      "missing_signals": [],
+      "rationale": [
+        "搜索热度 12 个月变化 +3462%（近期热度水平 54/100）。（google_trends·cached）",
+        "Top 10 竞品累计 3,389 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+        "头部竞品差评率 22%，主要痛点：做工差/易坏×49、电池/续航×14、难用/说明差×10。差评越集中越好打。（review_pain_density·proxy）",
+        "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。（amazon_bestsellers_snapshot·snapshot）"
+      ]
+    },
+    {
+      "keyword": "neck and shoulder massager with heat",
+      "score": 90.2,
+      "rank": 2,
+      "signals": [
+        {
+          "kind": "trend_momentum",
+          "provider": "google_trends",
+          "score": 100.0,
+          "provenance": "cached",
+          "confidence": 0.8,
+          "evidence": "搜索热度 12 个月变化 +4820%（近期热度水平 74/100）。",
+          "detail": {
+            "slope_pct": 4820.0,
+            "recent_level": 73.6,
+            "series_points": 53,
+            "rising_query_count": 0
+          }
+        },
+        {
+          "kind": "absolute_demand",
+          "provider": "review_volume_proxy",
+          "score": 100.0,
+          "provenance": "proxy",
+          "confidence": 0.55,
+          "evidence": "Top 5 竞品累计 3,204 条评论（销量代理，非真实销量）。",
+          "detail": {
+            "pool_size": 5,
+            "total_reviews": 3204,
+            "top_review_count": 2131
+          }
+        },
+        {
+          "kind": "differentiation",
+          "provider": "review_pain_density",
+          "score": 63.7,
+          "provenance": "proxy",
+          "confidence": 0.7,
+          "evidence": "头部竞品差评率 19%，主要痛点：做工差/易坏×40、发热/温控问题×7、难用/说明差×6。差评越集中越好打。",
+          "detail": {
+            "covered_competitors": 5,
+            "negative_rate": 0.194,
+            "top_pains": [
+              [
+                "做工差/易坏",
+                40
+              ],
+              [
+                "发热/温控问题",
+                7
+              ],
+              [
+                "难用/说明差",
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "surge",
+          "provider": "amazon_bestsellers_snapshot",
+          "score": 96.4,
+          "provenance": "snapshot",
+          "confidence": 0.6,
+          "evidence": "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。",
+          "detail": {
+            "rank": 7,
+            "is_mover": true
+          }
+        }
+      ],
+      "discovery_source": "trends_rising",
+      "contribution": {
+        "trend_momentum": 30.0,
+        "absolute_demand": 25.0,
+        "differentiation": 15.9,
+        "surge": 19.3
+      },
+      "missing_signals": [],
+      "rationale": [
+        "搜索热度 12 个月变化 +4820%（近期热度水平 74/100）。（google_trends·cached）",
+        "Top 5 竞品累计 3,204 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+        "头部竞品差评率 19%，主要痛点：做工差/易坏×40、发热/温控问题×7、难用/说明差×6。差评越集中越好打。（review_pain_density·proxy）",
+        "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。（amazon_bestsellers_snapshot·snapshot）"
+      ]
+    },
+    {
+      "keyword": "massager for neck",
+      "score": 88.9,
+      "rank": 3,
+      "signals": [
+        {
+          "kind": "trend_momentum",
+          "provider": "google_trends",
+          "score": 100.0,
+          "provenance": "cached",
+          "confidence": 0.8,
+          "evidence": "搜索热度 12 个月变化 +634%（近期热度水平 55/100）。",
+          "detail": {
+            "slope_pct": 634.0,
+            "recent_level": 55.2,
+            "series_points": 53,
+            "rising_query_count": 0
+          }
+        },
+        {
+          "kind": "absolute_demand",
+          "provider": "review_volume_proxy",
+          "score": 100.0,
+          "provenance": "proxy",
+          "confidence": 0.55,
+          "evidence": "Top 20 竞品累计 8,281 条评论（销量代理，非真实销量）。",
+          "detail": {
+            "pool_size": 20,
+            "total_reviews": 8281,
+            "top_review_count": 2131
+          }
+        },
+        {
+          "kind": "differentiation",
+          "provider": "review_pain_density",
+          "score": 58.6,
+          "provenance": "proxy",
+          "confidence": 0.7,
+          "evidence": "头部竞品差评率 17%，主要痛点：做工差/易坏×63、电池/续航×13、尺寸/贴合差×8。差评越集中越好打。",
+          "detail": {
+            "covered_competitors": 20,
+            "negative_rate": 0.168,
+            "top_pains": [
+              [
+                "做工差/易坏",
+                63
+              ],
+              [
+                "电池/续航",
+                13
+              ],
+              [
+                "尺寸/贴合差",
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "surge",
+          "provider": "amazon_bestsellers_snapshot",
+          "score": 96.4,
+          "provenance": "snapshot",
+          "confidence": 0.6,
+          "evidence": "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。",
+          "detail": {
+            "rank": 7,
+            "is_mover": true
+          }
+        }
+      ],
+      "discovery_source": "trends_rising",
+      "contribution": {
+        "trend_momentum": 30.0,
+        "absolute_demand": 25.0,
+        "differentiation": 14.7,
+        "surge": 19.3
+      },
+      "missing_signals": [],
+      "rationale": [
+        "搜索热度 12 个月变化 +634%（近期热度水平 55/100）。（google_trends·cached）",
+        "Top 20 竞品累计 8,281 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+        "头部竞品差评率 17%，主要痛点：做工差/易坏×63、电池/续航×13、尺寸/贴合差×8。差评越集中越好打。（review_pain_density·proxy）",
+        "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。（amazon_bestsellers_snapshot·snapshot）"
+      ]
+    },
+    {
+      "keyword": "neck massager",
+      "score": 87.0,
+      "rank": 4,
+      "signals": [
+        {
+          "kind": "trend_momentum",
+          "provider": "google_trends",
+          "score": 92.0,
+          "provenance": "cached",
+          "confidence": 0.8,
+          "evidence": "搜索热度 12 个月变化 +168%（近期热度水平 62/100）。",
+          "detail": {
+            "slope_pct": 168.0,
+            "recent_level": 62.3,
+            "series_points": 53,
+            "rising_query_count": 10
+          }
+        },
+        {
+          "kind": "absolute_demand",
+          "provider": "review_volume_proxy",
+          "score": 100.0,
+          "provenance": "proxy",
+          "confidence": 0.55,
+          "evidence": "Top 20 竞品累计 8,578 条评论（销量代理，非真实销量）。",
+          "detail": {
+            "pool_size": 20,
+            "total_reviews": 8578,
+            "top_review_count": 2131
+          }
+        },
+        {
+          "kind": "differentiation",
+          "provider": "review_pain_density",
+          "score": 60.6,
+          "provenance": "proxy",
+          "confidence": 0.7,
+          "evidence": "头部竞品差评率 18%，主要痛点：做工差/易坏×75、电池/续航×9、尺寸/贴合差×8。差评越集中越好打。",
+          "detail": {
+            "covered_competitors": 20,
+            "negative_rate": 0.178,
+            "top_pains": [
+              [
+                "做工差/易坏",
+                75
+              ],
+              [
+                "电池/续航",
+                9
+              ],
+              [
+                "尺寸/贴合差",
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "surge",
+          "provider": "amazon_bestsellers_snapshot",
+          "score": 96.4,
+          "provenance": "snapshot",
+          "confidence": 0.6,
+          "evidence": "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。",
+          "detail": {
+            "rank": 7,
+            "is_mover": true
+          }
+        }
+      ],
+      "discovery_source": "manual",
+      "contribution": {
+        "trend_momentum": 27.6,
+        "absolute_demand": 25.0,
+        "differentiation": 15.2,
+        "surge": 19.3
+      },
+      "missing_signals": [],
+      "rationale": [
+        "搜索热度 12 个月变化 +168%（近期热度水平 62/100）。（google_trends·cached）",
+        "Top 20 竞品累计 8,578 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+        "头部竞品差评率 18%，主要痛点：做工差/易坏×75、电池/续航×9、尺寸/贴合差×8。差评越集中越好打。（review_pain_density·proxy）",
+        "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。（amazon_bestsellers_snapshot·snapshot）"
+      ]
+    },
+    {
+      "keyword": "neck massager with hands",
+      "score": 64.2,
+      "rank": 5,
+      "signals": [
+        {
+          "kind": "trend_momentum",
+          "provider": "google_trends",
+          "score": 75.0,
+          "provenance": "cached",
+          "confidence": 0.8,
+          "evidence": "搜索热度 12 个月变化 +100%（近期热度水平 21/100）。",
+          "detail": {
+            "slope_pct": 100.0,
+            "recent_level": 21.1,
+            "series_points": 53,
+            "rising_query_count": 0
+          }
+        },
+        {
+          "kind": "absolute_demand",
+          "provider": "review_volume_proxy",
+          "score": 98.2,
+          "provenance": "proxy",
+          "confidence": 0.55,
+          "evidence": "Top 7 竞品累计 2,505 条评论（销量代理，非真实销量）。",
+          "detail": {
+            "pool_size": 7,
+            "total_reviews": 2505,
+            "top_review_count": 408
+          }
+        },
+        {
+          "kind": "differentiation",
+          "provider": "review_pain_density",
+          "score": 44.8,
+          "provenance": "proxy",
+          "confidence": 0.7,
+          "evidence": "头部竞品差评率 10%，主要痛点：做工差/易坏×6、电池/续航×4、气味/材质差×3。差评越集中越好打。",
+          "detail": {
+            "covered_competitors": 7,
+            "negative_rate": 0.099,
+            "top_pains": [
+              [
+                "做工差/易坏",
+                6
+              ],
+              [
+                "电池/续航",
+                4
+              ],
+              [
+                "气味/材质差",
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "kind": "surge",
+          "provider": "amazon_bestsellers_snapshot",
+          "score": 30.0,
+          "provenance": "snapshot",
+          "confidence": 0.4,
+          "evidence": "该赛道不在 Best Sellers 前 100，热度有限。",
+          "detail": {}
+        }
+      ],
+      "discovery_source": "trends_rising",
+      "contribution": {
+        "trend_momentum": 22.5,
+        "absolute_demand": 24.6,
+        "differentiation": 11.2,
+        "surge": 6.0
+      },
+      "missing_signals": [],
+      "rationale": [
+        "搜索热度 12 个月变化 +100%（近期热度水平 21/100）。（google_trends·cached）",
+        "Top 7 竞品累计 2,505 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+        "头部竞品差评率 10%，主要痛点：做工差/易坏×6、电池/续航×4、气味/材质差×3。差评越集中越好打。（review_pain_density·proxy）",
+        "该赛道不在 Best Sellers 前 100，热度有限。（amazon_bestsellers_snapshot·snapshot）"
+      ]
+    }
+  ],
+  "selected_keyword": "electric neck massager",
+  "selected_opportunity": {
+    "keyword": "electric neck massager",
+    "score": 91.6,
+    "rank": 1,
+    "signals": [
+      {
+        "kind": "trend_momentum",
+        "provider": "google_trends",
+        "score": 100.0,
+        "provenance": "cached",
+        "confidence": 0.8,
+        "evidence": "搜索热度 12 个月变化 +3462%（近期热度水平 54/100）。",
+        "detail": {
+          "slope_pct": 3461.9,
+          "recent_level": 54.2,
+          "series_points": 53,
+          "rising_query_count": 0
+        }
+      },
+      {
+        "kind": "absolute_demand",
+        "provider": "review_volume_proxy",
+        "score": 100.0,
+        "provenance": "proxy",
+        "confidence": 0.55,
+        "evidence": "Top 10 竞品累计 3,389 条评论（销量代理，非真实销量）。",
+        "detail": {
+          "pool_size": 10,
+          "total_reviews": 3389,
+          "top_review_count": 2131
+        }
+      },
+      {
+        "kind": "differentiation",
+        "provider": "review_pain_density",
+        "score": 69.4,
+        "provenance": "proxy",
+        "confidence": 0.7,
+        "evidence": "头部竞品差评率 22%，主要痛点：做工差/易坏×49、电池/续航×14、难用/说明差×10。差评越集中越好打。",
+        "detail": {
+          "covered_competitors": 10,
+          "negative_rate": 0.222,
+          "top_pains": [
+            [
+              "做工差/易坏",
+              49
+            ],
+            [
+              "电池/续航",
+              14
+            ],
+            [
+              "难用/说明差",
+              10
+            ]
+          ]
+        }
+      },
+      {
+        "kind": "surge",
+        "provider": "amazon_bestsellers_snapshot",
+        "score": 96.4,
+        "provenance": "snapshot",
+        "confidence": 0.6,
+        "evidence": "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。",
+        "detail": {
+          "rank": 7,
+          "is_mover": true
+        }
+      }
+    ],
+    "discovery_source": "trends_rising",
+    "contribution": {
+      "trend_momentum": 30.0,
+      "absolute_demand": 25.0,
+      "differentiation": 17.4,
+      "surge": 19.3
+    },
+    "missing_signals": [],
+    "rationale": [
+      "搜索热度 12 个月变化 +3462%（近期热度水平 54/100）。（google_trends·cached）",
+      "Top 10 竞品累计 3,389 条评论（销量代理，非真实销量）。（review_volume_proxy·proxy）",
+      "头部竞品差评率 22%，主要痛点：做工差/易坏×49、电池/续航×14、难用/说明差×10。差评越集中越好打。（review_pain_density·proxy）",
+      "Best Sellers 快照排名 #7（Zuzuro Shiatsu Pillow Massager with Heat）。（amazon_bestsellers_snapshot·snapshot）"
+    ]
+  },
+  "intake_report": {
+    "source": "amazon_reviews_2023_public_jsonl",
+    "raw_meta_rows": 60293,
+    "raw_review_rows": 800,
+    "matched_items": 20,
+    "matched_reviews": 800,
+    "generated_competitors": 20,
+    "generated_pain_points": 8,
+    "price_coverage": 0.25,
+    "missing_fields": {
+      "price": 15,
+      "average_rating": 0,
+      "review_count": 0,
+      "images": 0,
+      "features": 9,
+      "weight": 1,
+      "unit_cost": 1
+    },
+    "inferred_fields": [
+      "ads_cpa_estimate_from_target_price",
+      "estimated_monthly_sales_from_review_count",
+      "referral_fee_from_target_price",
+      "return_cost_allowance_from_target_price",
+      "target_price_from_competitor_median"
+    ],
+    "warnings": [
+      "unit_cost missing; cost_model is incomplete.",
+      "Could not infer product weight from metadata details.",
+      "Compliance precheck suggests certificates or manual review may be required."
+    ]
+  },
+  "product": {
+    "title": "Zuzuro Shiatsu Pillow Massager with Heat – Electric Pillow Back & Neck Massager for Stress Relief & Ultimate Relaxation; Lower Back & Shoulder Massage Great gifts for men and women",
+    "category": "Health & Personal Care",
+    "brand": "Zuzuro",
+    "sku": "",
+    "features": [
+      "SHIATSU MASSAGE PILLOW FOR FULL BODY: Zuzuro's shiatsu massaging pillow is ergonomically designed to merge with the contours of different body parts. It soothes and relaxes the neck, upper and lower back, abdomen, calves and thighs",
+      "RELIEVES ACHES, KNOTS & MUSCLE TENSION: The shiatsu pillow massager comes with 4 massage nodes that deliver a powerful circular kneading for pain relief. It also allows you a customized massage when it comes to speed and direction",
+      "INFRARED WARMING TECHNOLOGY: The heating function provides a soothing and invigorating heat that delivers a warm and gentle massage. It will leave your muscles relaxed while getting rid of all aches and fatigue.",
+      "FOR HOME AND TRAVEL USE: The portable design makes the device a convenient massage travel pillow and allows you to carry it with you wherever you go (home, office, in your car, or while traveling.) The adjustable strap allows you to secure it to your vehicle or chair.",
+      "HIGH-QUALITY & DURABLE DESIGN: Extremely strong with reliable power, the versatile 3d pillow massager will focus on many different muscle groups on your body. It is made of high-grade and durable materials for long-term use"
+    ],
+    "claims": [],
+    "materials": [],
+    "audience": "",
+    "image_urls": [
+      "https://m.media-amazon.com/images/I/51U8inl2YCL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51k09hQcTxL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51+2eYBXC5L._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51RrcLpPOhL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51YvA8BP0gL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51NIPaYcrrL._AC_.jpg"
+    ],
+    "image_paths": [],
+    "documents": [],
+    "attributes": {
+      "source_parent_asin": "B07FFH5HWY",
+      "source_categories": [],
+      "main_category": "Health & Personal Care",
+      "item_form": "",
+      "age_range": "",
+      "color": "",
+      "average_rating": 4.4,
+      "rating_number": 2131
+    }
+  },
+  "competitors": [
+    {
+      "asin": "B07FFH5HWY",
+      "title": "Zuzuro Shiatsu Pillow Massager with Heat – Electric Pillow Back & Neck Massager for Stress Relief & Ultimate Relaxation; Lower Back & Shoulder Massage Great gifts for men and women",
+      "brand": "Zuzuro",
+      "price": null,
+      "rating": 4.4,
+      "review_count": 2131,
+      "estimated_monthly_sales": 4688,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 80,
+      "strengths": [],
+      "weaknesses": [
+        "durability",
+        "size mismatch",
+        "installation"
+      ]
+    },
+    {
+      "asin": "B07BMRYTQ9",
+      "title": "Etekcity Cordless Neck Massager, Deep Shiatsu Kneading Back & Shoulder Massage with Heat for Muscles Pain Relief Relaxation, Adjustable Straps, Easy Use at Home, Office, Perfect Gift Idea",
+      "brand": "Etekcity",
+      "price": null,
+      "rating": 4.4,
+      "review_count": 408,
+      "estimated_monthly_sales": 898,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 80,
+      "strengths": [],
+      "weaknesses": [
+        "durability",
+        "too bulky",
+        "battery"
+      ]
+    },
+    {
+      "asin": "B07CQPFBRC",
+      "title": "Frcolor Portable Electric Facial Massager Microcurrent Beauty Apparatus Wrinkle Skin Spot Remover (Vibration function not included)",
+      "brand": "FRCOLOR",
+      "price": 20.99,
+      "rating": 3.2,
+      "review_count": 216,
+      "estimated_monthly_sales": 324,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 100,
+      "strengths": [],
+      "weaknesses": [
+        "durability"
+      ]
+    },
+    {
+      "asin": "B073QMF6DS",
+      "title": "Ohuhu Back Neck Massager Shoulder Leg Foot Shiatsu Electric Massagers Deep Kneading Heat Therapy Massager With AC & Car Adapter for Home Office Car Use for Father' Day Gifts",
+      "brand": "Ohuhu",
+      "price": null,
+      "rating": 4.2,
+      "review_count": 156,
+      "estimated_monthly_sales": 343,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "too bulky",
+        "battery",
+        "durability"
+      ]
+    },
+    {
+      "asin": "B07D336F2J",
+      "title": "Ophanie Shiatsu Neck and Back Massager with Heat, Deep Kneading Massager for Neck Back Shoulders Legs & Foot; Full Body Portable Electric Massager for Home, Office and Car - Black",
+      "brand": "Ophanie",
+      "price": null,
+      "rating": 4.2,
+      "review_count": 122,
+      "estimated_monthly_sales": 268,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 80,
+      "strengths": [],
+      "weaknesses": [
+        "durability",
+        "battery",
+        "size mismatch"
+      ]
+    },
+    {
+      "asin": "B00QR3SLFK",
+      "title": "HiiBaby® Full Body Massager Slimming Massage Electric Slim Pulse Muscle Relax 4 Pads",
+      "brand": "HiiBaby",
+      "price": 13.98,
+      "rating": 3.9,
+      "review_count": 99,
+      "estimated_monthly_sales": 148,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 100,
+      "strengths": [],
+      "weaknesses": [
+        "installation",
+        "adhesive"
+      ]
+    },
+    {
+      "asin": "B08V8R4PFR",
+      "title": "Tech Love Neck Massager with Heat Intelligent Electric Pulse for Neck Massage with 6 Modes 16 Levels Intensity for Office, Home, Outdoor and Gift (White)",
+      "brand": "Tech Love",
+      "price": null,
+      "rating": 4.0,
+      "review_count": 88,
+      "estimated_monthly_sales": 132,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "battery",
+        "installation"
+      ]
+    },
+    {
+      "asin": "B06ZZLV5Q6",
+      "title": "Shiatsu Neck Back Shoulder Electric Massager with Heat,Heated Deep Kneading Massager Rollers for Car Home Use[Auto Turn Off/Bi-Direction Control](Beige)",
+      "brand": "haraqi",
+      "price": null,
+      "rating": 3.8,
+      "review_count": 61,
+      "estimated_monthly_sales": 92,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "battery",
+        "durability"
+      ]
+    },
+    {
+      "asin": "B01MAYR8JL",
+      "title": "ELECITIZON Cordless Electric Handheld Massager Body 6X Multi-Speed Top Rated Vibration Deep Tissue Percusion Massage for Foot, Legs, Neck, Back, Shoulders",
+      "brand": "HYSPin",
+      "price": null,
+      "rating": 3.4,
+      "review_count": 57,
+      "estimated_monthly_sales": 86,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "durability",
+        "battery"
+      ]
+    },
+    {
+      "asin": "B086HCNRJ5",
+      "title": "[Upgrade] Electric Jade Roller for Face - Electric Jade Facial Roller, Aging Wrinkles, Puffiness Facial Skin Massager Treatment Therapy, Handmade Certified Stone, Beauty Massager for Skin Eyes Chin",
+      "brand": "Sunwuun",
+      "price": null,
+      "rating": 4.2,
+      "review_count": 51,
+      "estimated_monthly_sales": 112,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 80,
+      "strengths": [],
+      "weaknesses": []
+    },
+    {
+      "asin": "B01EM6IXJ2",
+      "title": "Digital Neck Massager with Heat, Acupuncture, Pulse & Vibration Therapy with Remote - Sleek LCD for Home or Office by Massage Therapy Concepts - 100% Satisfaction Guarantee",
+      "brand": "Massage Therapy Concepts",
+      "price": null,
+      "rating": 3.5,
+      "review_count": 49,
+      "estimated_monthly_sales": 74,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 75,
+      "strengths": [],
+      "weaknesses": [
+        "size mismatch",
+        "noise"
+      ]
+    },
+    {
+      "asin": "B0992CPDLW",
+      "title": "neckhero Neck Massager with Heat, Deep Tissue Massage for Neck Pain Relief, 6 Modes 15 Levels Portable Massage Pillow, Tens Unit Pads for Back Pain Neck Pain, Shoulder Neck and Back Massager",
+      "brand": "Scilla ROSE",
+      "price": 45.95,
+      "rating": 3.9,
+      "review_count": 46,
+      "estimated_monthly_sales": 69,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 90,
+      "strengths": [],
+      "weaknesses": [
+        "size mismatch",
+        "battery",
+        "installation"
+      ]
+    },
+    {
+      "asin": "B01G2E63JO",
+      "title": "Angel Kiss Colossal Electric Massager Handheld Variable Speed Red Light Slightly Heating Massager for Full Body Percussion Extreme Massager for Head, Neck Shoulder Back Leg Foot Face Motion Massage",
+      "brand": "Angel Kiss",
+      "price": null,
+      "rating": 3.6,
+      "review_count": 46,
+      "estimated_monthly_sales": 69,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "durability",
+        "too bulky"
+      ]
+    },
+    {
+      "asin": "B085Q2X5KG",
+      "title": "Green Cosmos Original HV-260 Vibrator Wand Moisturizer (8oz) for Deep Tissue Therapy - 2 Speeds Options, Noiseless Operation - Magic Wand for Relaxing Tense and Sore Muscles",
+      "brand": "Green Cosmos",
+      "price": 64.95,
+      "rating": 3.9,
+      "review_count": 45,
+      "estimated_monthly_sales": 68,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 100,
+      "strengths": [],
+      "weaknesses": [
+        "battery",
+        "durability"
+      ]
+    },
+    {
+      "asin": "B01GGNTX7A",
+      "title": "Shiatsu Foot Massager by Clever Creations | Foot Massager Machine for Relaxation - Relief of Sore Feet - Foot Care | Variable Settings for Heat and Intensity | Fits Most Foot Sizes | Pink",
+      "brand": "Clever Creations",
+      "price": null,
+      "rating": 3.7,
+      "review_count": 43,
+      "estimated_monthly_sales": 64,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 90,
+      "strengths": [],
+      "weaknesses": [
+        "size mismatch"
+      ]
+    },
+    {
+      "asin": "B07KZR81C3",
+      "title": "Kemei Women's 5 In 1 Beauty Tools Kit Waterproof Electric Razor Cordless Rechargeable Body Hair Bikini Trimmer Facial Cleansing Brush And Facial Massager",
+      "brand": "KEMEI",
+      "price": 29.99,
+      "rating": 3.3,
+      "review_count": 37,
+      "estimated_monthly_sales": 56,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 90,
+      "strengths": [],
+      "weaknesses": []
+    },
+    {
+      "asin": "B08JQ4T8P9",
+      "title": "Fathers Day Gifts Electric Neck Massager with Heated 3 Modes 15 Speeds Levels Portable 3D Intelligent Cordless Deep Tissue Trigger Point Massager for Home, Office, Outdoor(Pink)",
+      "brand": "FANCYSEEU",
+      "price": null,
+      "rating": 2.9,
+      "review_count": 29,
+      "estimated_monthly_sales": 44,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "size mismatch",
+        "battery"
+      ]
+    },
+    {
+      "asin": "B07VWT95GK",
+      "title": "24k Golden Beauty Bar Pulse Facial Massager, T-Shape Electric Sign Face Massage Tools for Sensitive Skin Face Pull Tight Firming Face Lifting",
+      "brand": "Elimech",
+      "price": null,
+      "rating": 3.9,
+      "review_count": 28,
+      "estimated_monthly_sales": 42,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 90,
+      "strengths": [],
+      "weaknesses": []
+    },
+    {
+      "asin": "B07TFFW4K2",
+      "title": "Rechargeable Electric Massager, Perfect Fashion, Large Size and Convenient Deep Tissue Massager, Silicone Material for Neck Back Shoulder, Sports Recovery",
+      "brand": "PXYBE-dtjh-74",
+      "price": null,
+      "rating": 3.8,
+      "review_count": 25,
+      "estimated_monthly_sales": 38,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "battery"
+      ]
+    },
+    {
+      "asin": "B0BWWBTHP6",
+      "title": "HA.penK Skin Beauty Device for Face and Neck, 3 in 1 Portable Electric Face Massager-V2",
+      "brand": "HA.penK",
+      "price": null,
+      "rating": 4.0,
+      "review_count": 25,
+      "estimated_monthly_sales": 38,
+      "bsr": null,
+      "prime": null,
+      "seller_count": null,
+      "listing_quality_score": 65,
+      "strengths": [],
+      "weaknesses": [
+        "installation",
+        "battery",
+        "size mismatch"
+      ]
+    }
+  ],
+  "pain_points": [
+    {
+      "topic": "durability",
+      "frequency": 34,
+      "severity": 5,
+      "example": "I did like this massager especially for the low price. But it broke after having only for 2 1/2 months. Extremely disappointed since return window was closed. I want to give it a better review because it did work out the knots. But that was",
+      "source_asins": [
+        "B01G2E63JO",
+        "B01MAYR8JL",
+        "B06ZZLV5Q6",
+        "B073QMF6DS",
+        "B07BMRYTQ9",
+        "B07CQPFBRC",
+        "B07D336F2J",
+        "B07FFH5HWY",
+        "B085Q2X5KG"
+      ]
+    },
+    {
+      "topic": "battery",
+      "frequency": 20,
+      "severity": 4,
+      "example": "This massager gave excellent massage, but broke in a week.  The direction and speed buttons failed after 15 minutes, and the cover tore within a week.  I bought this from Amazon for $25.  The homedics brand I bought from Costco lasted for y",
+      "source_asins": [
+        "B01MAYR8JL",
+        "B06ZZLV5Q6",
+        "B073QMF6DS",
+        "B07BMRYTQ9",
+        "B07D336F2J",
+        "B07FFH5HWY",
+        "B07TFFW4K2",
+        "B085Q2X5KG",
+        "B08JQ4T8P9",
+        "B08V8R4PFR",
+        "B0992CPDLW",
+        "B0BWWBTHP6"
+      ]
+    },
+    {
+      "topic": "size mismatch",
+      "frequency": 16,
+      "severity": 4,
+      "example": "At some points I enjoyed this but using it as hoped to sit behind my head while I’m driving or safely parked during lunch. The strap didn’t hold up the unit in place like o wanted to and this soon dropped too low to stay up from the elastic",
+      "source_asins": [
+        "B01EM6IXJ2",
+        "B01GGNTX7A",
+        "B073QMF6DS",
+        "B07BMRYTQ9",
+        "B07D336F2J",
+        "B07FFH5HWY",
+        "B08JQ4T8P9",
+        "B0992CPDLW",
+        "B0BWWBTHP6"
+      ]
+    },
+    {
+      "topic": "too bulky",
+      "frequency": 12,
+      "severity": 4,
+      "example": "I can see that they made it strong when they grab my neck but it's kind of too big to fit myself. It's high so my neck has to bend too much and it hurts",
+      "source_asins": [
+        "B01G2E63JO",
+        "B073QMF6DS",
+        "B07BMRYTQ9",
+        "B07D336F2J",
+        "B07FFH5HWY",
+        "B0BWWBTHP6"
+      ]
+    },
+    {
+      "topic": "installation",
+      "frequency": 10,
+      "severity": 5,
+      "example": "I bought this item as NEW, but it was definitely a used and returned item. Very embarrassing since I gave it as a gift! For the price I paid, it should be new. BUYER BEWARE!! Not all items were in the box, which means no instructions or inf",
+      "source_asins": [
+        "B00QR3SLFK",
+        "B073QMF6DS",
+        "B07BMRYTQ9",
+        "B07FFH5HWY",
+        "B08V8R4PFR",
+        "B0992CPDLW",
+        "B0BWWBTHP6"
+      ]
+    },
+    {
+      "topic": "noise",
+      "frequency": 3,
+      "severity": 4,
+      "example": "Insanely loud. Hurts to sit back on.",
+      "source_asins": [
+        "B01EM6IXJ2",
+        "B073QMF6DS",
+        "B0BWWBTHP6"
+      ]
+    },
+    {
+      "topic": "adhesive",
+      "frequency": 2,
+      "severity": 4,
+      "example": "Update: As of last week, the power button is broken and does not work. After pressing 30 times it might turn on, but then it is stuck I'm and hard to turn off? I'm hoping this can be replaced as I've had over 10 friends buy this but I have ",
+      "source_asins": [
+        "B00QR3SLFK",
+        "B07BMRYTQ9"
+      ]
+    },
+    {
+      "topic": "odor",
+      "frequency": 1,
+      "severity": 4,
+      "example": "Was great while it worked. Actually I was impressed while I was using it.<br />The first one lasted about 2 weeks and stoppped working and I could smell something burnt.<br />I send it back to Amazon and received a replacement, but it only ",
+      "source_asins": [
+        "B07FFH5HWY"
+      ]
+    }
+  ],
+  "research": {
+    "decision": "requires_human_review",
+    "opportunity_level": "medium",
+    "score": 64,
+    "confidence": 0.74,
+    "score_breakdown": {
+      "demand": 64,
+      "profitability": 50,
+      "competition": 99,
+      "logistics": 82,
+      "compliance": 23
+    },
+    "candidate_ranking": [
+      {
+        "asin": "B07FFH5HWY",
+        "title": "Zuzuro Shiatsu Pillow Massager with Heat – Electric Pillow Back & Neck Massager for Stress Relief & Ultimate Relaxation; Lower Back & Shoulder Massage Great gifts for men and women",
+        "role": "selected",
+        "score": 95,
+        "score_parts": {
+          "estimated_sales": 40,
+          "review_depth": 20,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.4,
+          "review_count": 2131,
+          "estimated_monthly_sales": 4688,
+          "weaknesses": [
+            "durability",
+            "size mismatch",
+            "installation"
+          ]
+        },
+        "why": [
+          "综合候选分 95/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 4688，评论数 2131，评分 4.4。",
+          "评论弱点命中 durability, size mismatch, installation，说明存在可改良/差异化空间。",
+          "这是当前进入后续 Listing/合规链路的主推候选。"
+        ]
+      },
+      {
+        "asin": "B07BMRYTQ9",
+        "title": "Etekcity Cordless Neck Massager, Deep Shiatsu Kneading Back & Shoulder Massage with Heat for Muscles Pain Relief Relaxation, Adjustable Straps, Easy Use at Home, Office, Perfect Gift Idea",
+        "role": "candidate",
+        "score": 47,
+        "score_parts": {
+          "estimated_sales": 8,
+          "review_depth": 4,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.4,
+          "review_count": 408,
+          "estimated_monthly_sales": 898,
+          "weaknesses": [
+            "durability",
+            "too bulky",
+            "battery"
+          ]
+        },
+        "why": [
+          "综合候选分 47/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 898，评论数 408，评分 4.4。",
+          "评论弱点命中 durability, too bulky, battery，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B073QMF6DS",
+        "title": "Ohuhu Back Neck Massager Shoulder Leg Foot Shiatsu Electric Massagers Deep Kneading Heat Therapy Massager With AC & Car Adapter for Home Office Car Use for Father' Day Gifts",
+        "role": "candidate",
+        "score": 39,
+        "score_parts": {
+          "estimated_sales": 3,
+          "review_depth": 1,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.2,
+          "review_count": 156,
+          "estimated_monthly_sales": 343,
+          "weaknesses": [
+            "too bulky",
+            "battery",
+            "durability"
+          ]
+        },
+        "why": [
+          "综合候选分 39/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 343，评论数 156，评分 4.2。",
+          "评论弱点命中 too bulky, battery, durability，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B07D336F2J",
+        "title": "Ophanie Shiatsu Neck and Back Massager with Heat, Deep Kneading Massager for Neck Back Shoulders Legs & Foot; Full Body Portable Electric Massager for Home, Office and Car - Black",
+        "role": "candidate",
+        "score": 38,
+        "score_parts": {
+          "estimated_sales": 2,
+          "review_depth": 1,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.2,
+          "review_count": 122,
+          "estimated_monthly_sales": 268,
+          "weaknesses": [
+            "durability",
+            "battery",
+            "size mismatch"
+          ]
+        },
+        "why": [
+          "综合候选分 38/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 268，评论数 122，评分 4.2。",
+          "评论弱点命中 durability, battery, size mismatch，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B0BWWBTHP6",
+        "title": "HA.penK Skin Beauty Device for Face and Neck, 3 in 1 Portable Electric Face Massager-V2",
+        "role": "candidate",
+        "score": 35,
+        "score_parts": {
+          "estimated_sales": 0,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.0,
+          "review_count": 25,
+          "estimated_monthly_sales": 38,
+          "weaknesses": [
+            "installation",
+            "battery",
+            "size mismatch"
+          ]
+        },
+        "why": [
+          "综合候选分 35/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 38，评论数 25，评分 4.0。",
+          "评论弱点命中 installation, battery, size mismatch，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B0992CPDLW",
+        "title": "neckhero Neck Massager with Heat, Deep Tissue Massage for Neck Pain Relief, 6 Modes 15 Levels Portable Massage Pillow, Tens Unit Pads for Back Pain Neck Pain, Shoulder Neck and Back Massager",
+        "role": "candidate",
+        "score": 34,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 15,
+          "price_position": 3
+        },
+        "signals": {
+          "price": 45.95,
+          "rating": 3.9,
+          "review_count": 46,
+          "estimated_monthly_sales": 69,
+          "weaknesses": [
+            "size mismatch",
+            "battery",
+            "installation"
+          ]
+        },
+        "why": [
+          "综合候选分 34/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 69，评论数 46，评分 3.9。",
+          "评论弱点命中 size mismatch, battery, installation，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B08V8R4PFR",
+        "title": "Tech Love Neck Massager with Heat Intelligent Electric Pulse for Neck Massage with 6 Modes 16 Levels Intensity for Office, Home, Outdoor and Gift (White)",
+        "role": "candidate",
+        "score": 32,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 1,
+          "rating_window": 15,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.0,
+          "review_count": 88,
+          "estimated_monthly_sales": 132,
+          "weaknesses": [
+            "battery",
+            "installation"
+          ]
+        },
+        "why": [
+          "综合候选分 32/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 132，评论数 88，评分 4.0。",
+          "评论弱点命中 battery, installation，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B06ZZLV5Q6",
+        "title": "Shiatsu Neck Back Shoulder Electric Massager with Heat,Heated Deep Kneading Massager Rollers for Car Home Use[Auto Turn Off/Bi-Direction Control](Beige)",
+        "role": "candidate",
+        "score": 32,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 1,
+          "rating_window": 15,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.8,
+          "review_count": 61,
+          "estimated_monthly_sales": 92,
+          "weaknesses": [
+            "battery",
+            "durability"
+          ]
+        },
+        "why": [
+          "综合候选分 32/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 92，评论数 61，评分 3.8。",
+          "评论弱点命中 battery, durability，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B00QR3SLFK",
+        "title": "HiiBaby® Full Body Massager Slimming Massage Electric Slim Pulse Muscle Relax 4 Pads",
+        "role": "candidate",
+        "score": 30,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 1,
+          "rating_window": 15,
+          "pain_point_gap": 10,
+          "price_position": 3
+        },
+        "signals": {
+          "price": 13.98,
+          "rating": 3.9,
+          "review_count": 99,
+          "estimated_monthly_sales": 148,
+          "weaknesses": [
+            "installation",
+            "adhesive"
+          ]
+        },
+        "why": [
+          "综合候选分 30/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 148，评论数 99，评分 3.9。",
+          "评论弱点命中 installation, adhesive，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B085Q2X5KG",
+        "title": "Green Cosmos Original HV-260 Vibrator Wand Moisturizer (8oz) for Deep Tissue Therapy - 2 Speeds Options, Noiseless Operation - Magic Wand for Relaxing Tense and Sore Muscles",
+        "role": "candidate",
+        "score": 29,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 10,
+          "price_position": 3
+        },
+        "signals": {
+          "price": 64.95,
+          "rating": 3.9,
+          "review_count": 45,
+          "estimated_monthly_sales": 68,
+          "weaknesses": [
+            "battery",
+            "durability"
+          ]
+        },
+        "why": [
+          "综合候选分 29/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 68，评论数 45，评分 3.9。",
+          "评论弱点命中 battery, durability，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B01MAYR8JL",
+        "title": "ELECITIZON Cordless Electric Handheld Massager Body 6X Multi-Speed Top Rated Vibration Deep Tissue Percusion Massage for Foot, Legs, Neck, Back, Shoulders",
+        "role": "candidate",
+        "score": 27,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 1,
+          "rating_window": 10,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.4,
+          "review_count": 57,
+          "estimated_monthly_sales": 86,
+          "weaknesses": [
+            "durability",
+            "battery"
+          ]
+        },
+        "why": [
+          "综合候选分 27/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 86，评论数 57，评分 3.4。",
+          "评论弱点命中 durability, battery，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B01EM6IXJ2",
+        "title": "Digital Neck Massager with Heat, Acupuncture, Pulse & Vibration Therapy with Remote - Sleek LCD for Home or Office by Massage Therapy Concepts - 100% Satisfaction Guarantee",
+        "role": "candidate",
+        "score": 26,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 10,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.5,
+          "review_count": 49,
+          "estimated_monthly_sales": 74,
+          "weaknesses": [
+            "size mismatch",
+            "noise"
+          ]
+        },
+        "why": [
+          "综合候选分 26/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 74，评论数 49，评分 3.5。",
+          "评论弱点命中 size mismatch, noise，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B01G2E63JO",
+        "title": "Angel Kiss Colossal Electric Massager Handheld Variable Speed Red Light Slightly Heating Massager for Full Body Percussion Extreme Massager for Head, Neck Shoulder Back Leg Foot Face Motion Massage",
+        "role": "candidate",
+        "score": 26,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 10,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.6,
+          "review_count": 46,
+          "estimated_monthly_sales": 69,
+          "weaknesses": [
+            "durability",
+            "too bulky"
+          ]
+        },
+        "why": [
+          "综合候选分 26/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 69，评论数 46，评分 3.6。",
+          "评论弱点命中 durability, too bulky，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B08JQ4T8P9",
+        "title": "Fathers Day Gifts Electric Neck Massager with Heated 3 Modes 15 Speeds Levels Portable 3D Intelligent Cordless Deep Tissue Trigger Point Massager for Home, Office, Outdoor(Pink)",
+        "role": "candidate",
+        "score": 25,
+        "score_parts": {
+          "estimated_sales": 0,
+          "review_depth": 0,
+          "rating_window": 10,
+          "pain_point_gap": 10,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 2.9,
+          "review_count": 29,
+          "estimated_monthly_sales": 44,
+          "weaknesses": [
+            "size mismatch",
+            "battery"
+          ]
+        },
+        "why": [
+          "综合候选分 25/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 44，评论数 29，评分 2.9。",
+          "评论弱点命中 size mismatch, battery，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B07TFFW4K2",
+        "title": "Rechargeable Electric Massager, Perfect Fashion, Large Size and Convenient Deep Tissue Massager, Silicone Material for Neck Back Shoulder, Sports Recovery",
+        "role": "candidate",
+        "score": 25,
+        "score_parts": {
+          "estimated_sales": 0,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 5,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.8,
+          "review_count": 25,
+          "estimated_monthly_sales": 38,
+          "weaknesses": [
+            "battery"
+          ]
+        },
+        "why": [
+          "综合候选分 25/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 38，评论数 25，评分 3.8。",
+          "评论弱点命中 battery，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B07CQPFBRC",
+        "title": "Frcolor Portable Electric Facial Massager Microcurrent Beauty Apparatus Wrinkle Skin Spot Remover (Vibration function not included)",
+        "role": "candidate",
+        "score": 23,
+        "score_parts": {
+          "estimated_sales": 3,
+          "review_depth": 2,
+          "rating_window": 10,
+          "pain_point_gap": 5,
+          "price_position": 3
+        },
+        "signals": {
+          "price": 20.99,
+          "rating": 3.2,
+          "review_count": 216,
+          "estimated_monthly_sales": 324,
+          "weaknesses": [
+            "durability"
+          ]
+        },
+        "why": [
+          "综合候选分 23/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 324，评论数 216，评分 3.2。",
+          "评论弱点命中 durability，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B086HCNRJ5",
+        "title": "[Upgrade] Electric Jade Roller for Face - Electric Jade Facial Roller, Aging Wrinkles, Puffiness Facial Skin Massager Treatment Therapy, Handmade Certified Stone, Beauty Massager for Skin Eyes Chin",
+        "role": "candidate",
+        "score": 21,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 0,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 4.2,
+          "review_count": 51,
+          "estimated_monthly_sales": 112,
+          "weaknesses": []
+        },
+        "why": [
+          "综合候选分 21/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 112，评论数 51，评分 4.2。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B01GGNTX7A",
+        "title": "Shiatsu Foot Massager by Clever Creations | Foot Massager Machine for Relaxation - Relief of Sore Feet - Foot Care | Variable Settings for Heat and Intensity | Fits Most Foot Sizes | Pink",
+        "role": "candidate",
+        "score": 21,
+        "score_parts": {
+          "estimated_sales": 1,
+          "review_depth": 0,
+          "rating_window": 10,
+          "pain_point_gap": 5,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.7,
+          "review_count": 43,
+          "estimated_monthly_sales": 64,
+          "weaknesses": [
+            "size mismatch"
+          ]
+        },
+        "why": [
+          "综合候选分 21/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 64，评论数 43，评分 3.7。",
+          "评论弱点命中 size mismatch，说明存在可改良/差异化空间。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B07KZR81C3",
+        "title": "Kemei Women's 5 In 1 Beauty Tools Kit Waterproof Electric Razor Cordless Rechargeable Body Hair Bikini Trimmer Facial Cleansing Brush And Facial Massager",
+        "role": "candidate",
+        "score": 20,
+        "score_parts": {
+          "estimated_sales": 0,
+          "review_depth": 0,
+          "rating_window": 10,
+          "pain_point_gap": 0,
+          "price_position": 10
+        },
+        "signals": {
+          "price": 29.99,
+          "rating": 3.3,
+          "review_count": 37,
+          "estimated_monthly_sales": 56,
+          "weaknesses": []
+        },
+        "why": [
+          "综合候选分 20/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 56，评论数 37，评分 3.3。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      },
+      {
+        "asin": "B07VWT95GK",
+        "title": "24k Golden Beauty Bar Pulse Facial Massager, T-Shape Electric Sign Face Massage Tools for Sensitive Skin Face Pull Tight Firming Face Lifting",
+        "role": "candidate",
+        "score": 20,
+        "score_parts": {
+          "estimated_sales": 0,
+          "review_depth": 0,
+          "rating_window": 15,
+          "pain_point_gap": 0,
+          "price_position": 5
+        },
+        "signals": {
+          "price": null,
+          "rating": 3.9,
+          "review_count": 28,
+          "estimated_monthly_sales": 42,
+          "weaknesses": []
+        },
+        "why": [
+          "综合候选分 20/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+          "预估月销 42，评论数 28，评分 3.9。",
+          "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+        ]
+      }
+    ],
+    "research_pipeline": [
+      {
+        "step": "data_intake",
+        "name": "候选数据接入",
+        "question": "有哪些商品可以进入候选池？",
+        "inputs": [
+          "metadata",
+          "reviews",
+          "keyword",
+          "category"
+        ],
+        "calculation": "按关键词 'electric neck massager' 和类目 '' 匹配，生成 20 条候选。",
+        "evidence": {
+          "candidate_count": 20,
+          "pain_point_count": 8
+        },
+        "output": "标准化候选池、评论痛点、成本/物流/合规预检。"
+      },
+      {
+        "step": "candidate_ranking",
+        "name": "候选排序",
+        "question": "为什么是这条商品进入后续链路？",
+        "inputs": [
+          "estimated_monthly_sales",
+          "review_count",
+          "rating",
+          "weaknesses",
+          "price"
+        ],
+        "calculation": "候选分 = 预估月销40 + 评论深度20 + 评分窗口15 + 痛点缺口15 + 价格位置10。",
+        "evidence": {
+          "ranking": [
+            {
+              "asin": "B07FFH5HWY",
+              "title": "Zuzuro Shiatsu Pillow Massager with Heat – Electric Pillow Back & Neck Massager for Stress Relief & Ultimate Relaxation; Lower Back & Shoulder Massage Great gifts for men and women",
+              "role": "selected",
+              "score": 95,
+              "score_parts": {
+                "estimated_sales": 40,
+                "review_depth": 20,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.4,
+                "review_count": 2131,
+                "estimated_monthly_sales": 4688,
+                "weaknesses": [
+                  "durability",
+                  "size mismatch",
+                  "installation"
+                ]
+              },
+              "why": [
+                "综合候选分 95/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 4688，评论数 2131，评分 4.4。",
+                "评论弱点命中 durability, size mismatch, installation，说明存在可改良/差异化空间。",
+                "这是当前进入后续 Listing/合规链路的主推候选。"
+              ]
+            },
+            {
+              "asin": "B07BMRYTQ9",
+              "title": "Etekcity Cordless Neck Massager, Deep Shiatsu Kneading Back & Shoulder Massage with Heat for Muscles Pain Relief Relaxation, Adjustable Straps, Easy Use at Home, Office, Perfect Gift Idea",
+              "role": "candidate",
+              "score": 47,
+              "score_parts": {
+                "estimated_sales": 8,
+                "review_depth": 4,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.4,
+                "review_count": 408,
+                "estimated_monthly_sales": 898,
+                "weaknesses": [
+                  "durability",
+                  "too bulky",
+                  "battery"
+                ]
+              },
+              "why": [
+                "综合候选分 47/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 898，评论数 408，评分 4.4。",
+                "评论弱点命中 durability, too bulky, battery，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B073QMF6DS",
+              "title": "Ohuhu Back Neck Massager Shoulder Leg Foot Shiatsu Electric Massagers Deep Kneading Heat Therapy Massager With AC & Car Adapter for Home Office Car Use for Father' Day Gifts",
+              "role": "candidate",
+              "score": 39,
+              "score_parts": {
+                "estimated_sales": 3,
+                "review_depth": 1,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.2,
+                "review_count": 156,
+                "estimated_monthly_sales": 343,
+                "weaknesses": [
+                  "too bulky",
+                  "battery",
+                  "durability"
+                ]
+              },
+              "why": [
+                "综合候选分 39/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 343，评论数 156，评分 4.2。",
+                "评论弱点命中 too bulky, battery, durability，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B07D336F2J",
+              "title": "Ophanie Shiatsu Neck and Back Massager with Heat, Deep Kneading Massager for Neck Back Shoulders Legs & Foot; Full Body Portable Electric Massager for Home, Office and Car - Black",
+              "role": "candidate",
+              "score": 38,
+              "score_parts": {
+                "estimated_sales": 2,
+                "review_depth": 1,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.2,
+                "review_count": 122,
+                "estimated_monthly_sales": 268,
+                "weaknesses": [
+                  "durability",
+                  "battery",
+                  "size mismatch"
+                ]
+              },
+              "why": [
+                "综合候选分 38/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 268，评论数 122，评分 4.2。",
+                "评论弱点命中 durability, battery, size mismatch，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B0BWWBTHP6",
+              "title": "HA.penK Skin Beauty Device for Face and Neck, 3 in 1 Portable Electric Face Massager-V2",
+              "role": "candidate",
+              "score": 35,
+              "score_parts": {
+                "estimated_sales": 0,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.0,
+                "review_count": 25,
+                "estimated_monthly_sales": 38,
+                "weaknesses": [
+                  "installation",
+                  "battery",
+                  "size mismatch"
+                ]
+              },
+              "why": [
+                "综合候选分 35/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 38，评论数 25，评分 4.0。",
+                "评论弱点命中 installation, battery, size mismatch，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B0992CPDLW",
+              "title": "neckhero Neck Massager with Heat, Deep Tissue Massage for Neck Pain Relief, 6 Modes 15 Levels Portable Massage Pillow, Tens Unit Pads for Back Pain Neck Pain, Shoulder Neck and Back Massager",
+              "role": "candidate",
+              "score": 34,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 15,
+                "price_position": 3
+              },
+              "signals": {
+                "price": 45.95,
+                "rating": 3.9,
+                "review_count": 46,
+                "estimated_monthly_sales": 69,
+                "weaknesses": [
+                  "size mismatch",
+                  "battery",
+                  "installation"
+                ]
+              },
+              "why": [
+                "综合候选分 34/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 69，评论数 46，评分 3.9。",
+                "评论弱点命中 size mismatch, battery, installation，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B08V8R4PFR",
+              "title": "Tech Love Neck Massager with Heat Intelligent Electric Pulse for Neck Massage with 6 Modes 16 Levels Intensity for Office, Home, Outdoor and Gift (White)",
+              "role": "candidate",
+              "score": 32,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 1,
+                "rating_window": 15,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.0,
+                "review_count": 88,
+                "estimated_monthly_sales": 132,
+                "weaknesses": [
+                  "battery",
+                  "installation"
+                ]
+              },
+              "why": [
+                "综合候选分 32/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 132，评论数 88，评分 4.0。",
+                "评论弱点命中 battery, installation，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B06ZZLV5Q6",
+              "title": "Shiatsu Neck Back Shoulder Electric Massager with Heat,Heated Deep Kneading Massager Rollers for Car Home Use[Auto Turn Off/Bi-Direction Control](Beige)",
+              "role": "candidate",
+              "score": 32,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 1,
+                "rating_window": 15,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.8,
+                "review_count": 61,
+                "estimated_monthly_sales": 92,
+                "weaknesses": [
+                  "battery",
+                  "durability"
+                ]
+              },
+              "why": [
+                "综合候选分 32/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 92，评论数 61，评分 3.8。",
+                "评论弱点命中 battery, durability，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B00QR3SLFK",
+              "title": "HiiBaby® Full Body Massager Slimming Massage Electric Slim Pulse Muscle Relax 4 Pads",
+              "role": "candidate",
+              "score": 30,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 1,
+                "rating_window": 15,
+                "pain_point_gap": 10,
+                "price_position": 3
+              },
+              "signals": {
+                "price": 13.98,
+                "rating": 3.9,
+                "review_count": 99,
+                "estimated_monthly_sales": 148,
+                "weaknesses": [
+                  "installation",
+                  "adhesive"
+                ]
+              },
+              "why": [
+                "综合候选分 30/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 148，评论数 99，评分 3.9。",
+                "评论弱点命中 installation, adhesive，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B085Q2X5KG",
+              "title": "Green Cosmos Original HV-260 Vibrator Wand Moisturizer (8oz) for Deep Tissue Therapy - 2 Speeds Options, Noiseless Operation - Magic Wand for Relaxing Tense and Sore Muscles",
+              "role": "candidate",
+              "score": 29,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 10,
+                "price_position": 3
+              },
+              "signals": {
+                "price": 64.95,
+                "rating": 3.9,
+                "review_count": 45,
+                "estimated_monthly_sales": 68,
+                "weaknesses": [
+                  "battery",
+                  "durability"
+                ]
+              },
+              "why": [
+                "综合候选分 29/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 68，评论数 45，评分 3.9。",
+                "评论弱点命中 battery, durability，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B01MAYR8JL",
+              "title": "ELECITIZON Cordless Electric Handheld Massager Body 6X Multi-Speed Top Rated Vibration Deep Tissue Percusion Massage for Foot, Legs, Neck, Back, Shoulders",
+              "role": "candidate",
+              "score": 27,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 1,
+                "rating_window": 10,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.4,
+                "review_count": 57,
+                "estimated_monthly_sales": 86,
+                "weaknesses": [
+                  "durability",
+                  "battery"
+                ]
+              },
+              "why": [
+                "综合候选分 27/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 86，评论数 57，评分 3.4。",
+                "评论弱点命中 durability, battery，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B01EM6IXJ2",
+              "title": "Digital Neck Massager with Heat, Acupuncture, Pulse & Vibration Therapy with Remote - Sleek LCD for Home or Office by Massage Therapy Concepts - 100% Satisfaction Guarantee",
+              "role": "candidate",
+              "score": 26,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 10,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.5,
+                "review_count": 49,
+                "estimated_monthly_sales": 74,
+                "weaknesses": [
+                  "size mismatch",
+                  "noise"
+                ]
+              },
+              "why": [
+                "综合候选分 26/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 74，评论数 49，评分 3.5。",
+                "评论弱点命中 size mismatch, noise，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B01G2E63JO",
+              "title": "Angel Kiss Colossal Electric Massager Handheld Variable Speed Red Light Slightly Heating Massager for Full Body Percussion Extreme Massager for Head, Neck Shoulder Back Leg Foot Face Motion Massage",
+              "role": "candidate",
+              "score": 26,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 10,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.6,
+                "review_count": 46,
+                "estimated_monthly_sales": 69,
+                "weaknesses": [
+                  "durability",
+                  "too bulky"
+                ]
+              },
+              "why": [
+                "综合候选分 26/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 69，评论数 46，评分 3.6。",
+                "评论弱点命中 durability, too bulky，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B08JQ4T8P9",
+              "title": "Fathers Day Gifts Electric Neck Massager with Heated 3 Modes 15 Speeds Levels Portable 3D Intelligent Cordless Deep Tissue Trigger Point Massager for Home, Office, Outdoor(Pink)",
+              "role": "candidate",
+              "score": 25,
+              "score_parts": {
+                "estimated_sales": 0,
+                "review_depth": 0,
+                "rating_window": 10,
+                "pain_point_gap": 10,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 2.9,
+                "review_count": 29,
+                "estimated_monthly_sales": 44,
+                "weaknesses": [
+                  "size mismatch",
+                  "battery"
+                ]
+              },
+              "why": [
+                "综合候选分 25/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 44，评论数 29，评分 2.9。",
+                "评论弱点命中 size mismatch, battery，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B07TFFW4K2",
+              "title": "Rechargeable Electric Massager, Perfect Fashion, Large Size and Convenient Deep Tissue Massager, Silicone Material for Neck Back Shoulder, Sports Recovery",
+              "role": "candidate",
+              "score": 25,
+              "score_parts": {
+                "estimated_sales": 0,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 5,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.8,
+                "review_count": 25,
+                "estimated_monthly_sales": 38,
+                "weaknesses": [
+                  "battery"
+                ]
+              },
+              "why": [
+                "综合候选分 25/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 38，评论数 25，评分 3.8。",
+                "评论弱点命中 battery，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B07CQPFBRC",
+              "title": "Frcolor Portable Electric Facial Massager Microcurrent Beauty Apparatus Wrinkle Skin Spot Remover (Vibration function not included)",
+              "role": "candidate",
+              "score": 23,
+              "score_parts": {
+                "estimated_sales": 3,
+                "review_depth": 2,
+                "rating_window": 10,
+                "pain_point_gap": 5,
+                "price_position": 3
+              },
+              "signals": {
+                "price": 20.99,
+                "rating": 3.2,
+                "review_count": 216,
+                "estimated_monthly_sales": 324,
+                "weaknesses": [
+                  "durability"
+                ]
+              },
+              "why": [
+                "综合候选分 23/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 324，评论数 216，评分 3.2。",
+                "评论弱点命中 durability，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B086HCNRJ5",
+              "title": "[Upgrade] Electric Jade Roller for Face - Electric Jade Facial Roller, Aging Wrinkles, Puffiness Facial Skin Massager Treatment Therapy, Handmade Certified Stone, Beauty Massager for Skin Eyes Chin",
+              "role": "candidate",
+              "score": 21,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 0,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 4.2,
+                "review_count": 51,
+                "estimated_monthly_sales": 112,
+                "weaknesses": []
+              },
+              "why": [
+                "综合候选分 21/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 112，评论数 51，评分 4.2。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B01GGNTX7A",
+              "title": "Shiatsu Foot Massager by Clever Creations | Foot Massager Machine for Relaxation - Relief of Sore Feet - Foot Care | Variable Settings for Heat and Intensity | Fits Most Foot Sizes | Pink",
+              "role": "candidate",
+              "score": 21,
+              "score_parts": {
+                "estimated_sales": 1,
+                "review_depth": 0,
+                "rating_window": 10,
+                "pain_point_gap": 5,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.7,
+                "review_count": 43,
+                "estimated_monthly_sales": 64,
+                "weaknesses": [
+                  "size mismatch"
+                ]
+              },
+              "why": [
+                "综合候选分 21/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 64，评论数 43，评分 3.7。",
+                "评论弱点命中 size mismatch，说明存在可改良/差异化空间。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B07KZR81C3",
+              "title": "Kemei Women's 5 In 1 Beauty Tools Kit Waterproof Electric Razor Cordless Rechargeable Body Hair Bikini Trimmer Facial Cleansing Brush And Facial Massager",
+              "role": "candidate",
+              "score": 20,
+              "score_parts": {
+                "estimated_sales": 0,
+                "review_depth": 0,
+                "rating_window": 10,
+                "pain_point_gap": 0,
+                "price_position": 10
+              },
+              "signals": {
+                "price": 29.99,
+                "rating": 3.3,
+                "review_count": 37,
+                "estimated_monthly_sales": 56,
+                "weaknesses": []
+              },
+              "why": [
+                "综合候选分 20/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 56，评论数 37，评分 3.3。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            },
+            {
+              "asin": "B07VWT95GK",
+              "title": "24k Golden Beauty Bar Pulse Facial Massager, T-Shape Electric Sign Face Massage Tools for Sensitive Skin Face Pull Tight Firming Face Lifting",
+              "role": "candidate",
+              "score": 20,
+              "score_parts": {
+                "estimated_sales": 0,
+                "review_depth": 0,
+                "rating_window": 15,
+                "pain_point_gap": 0,
+                "price_position": 5
+              },
+              "signals": {
+                "price": null,
+                "rating": 3.9,
+                "review_count": 28,
+                "estimated_monthly_sales": 42,
+                "weaknesses": []
+              },
+              "why": [
+                "综合候选分 20/100，来自预估月销、评论深度、评分区间、痛点缺口和价格位置。",
+                "预估月销 42，评论数 28，评分 3.9。",
+                "该商品保留为对照候选，用来比较价格、评论和痛点差异。"
+              ]
+            }
+          ]
+        },
+        "output": [
+          {
+            "claim": "候选池 20 条，当前主推 B07FFH5HWY。",
+            "evidence": "主推来自 product.attributes.source_parent_asin；候选池来自 matched metadata rows。",
+            "source": "ProductResearchRequest.product.attributes.source_parent_asin / competitors[]"
+          },
+          {
+            "claim": "主推需求信号强于对照：预估月销 4688 vs 898，评论 2131 vs 408。",
+            "evidence": "estimated_monthly_sales 由 review_count 与 rating 的本地规则估算；不是 Amazon 实时销量。",
+            "source": "competitors[].estimated_monthly_sales / competitors[].review_count"
+          },
+          {
+            "claim": "利润项得分 50/100，粗算毛利空间 None%。",
+            "evidence": "target_price=29.99, landed_cost=None, formula=(target_price-landed_cost)/target_price。",
+            "source": "ProductResearchRequest.target_price / cost_model.total_landed_cost()"
+          },
+          {
+            "claim": "评论痛点命中 durability, battery, size mismatch, too bulky, installation, noise, adhesive, odor。",
+            "evidence": "这些痛点来自 3 星及以下评论的关键词匹配，只能说明改良方向，不能直接证明市场规模。",
+            "source": "pain_points[].topic / pain_points[].example / pain_points[].source_asins"
+          },
+          {
+            "claim": "物流分 82/100，合规分 23/100。",
+            "evidence": "物流基于 weight/hazmat flags；合规基于标题/类目/features/claims 和 precheck flags，未发现阻断项。",
+            "source": "logistics / compliance_precheck / product claims"
+          }
+        ]
+      },
+      {
+        "step": "demand",
+        "name": "需求判断",
+        "question": "市场是否有基本需求？",
+        "inputs": [
+          "competitor_estimated_sales",
+          "review_pain_points"
+        ],
+        "calculation": "竞品预估月销样本 [4688, 898, 324, 343, 268, 148, 132, 92, 86, 112, 74, 69, 69, 68, 64, 56, 44, 42, 38, 38]，再叠加痛点权重 436。",
+        "evidence": {
+          "score": 64,
+          "competitor_sales": [
+            4688,
+            898,
+            324,
+            343,
+            268,
+            148,
+            132,
+            92,
+            86,
+            112,
+            74,
+            69,
+            69,
+            68,
+            64,
+            56,
+            44,
+            42,
+            38,
+            38
+          ]
+        },
+        "output": "需求分 64/100。"
+      },
+      {
+        "step": "profitability",
+        "name": "利润判断",
+        "question": "扣掉成本后是否还有空间？",
+        "inputs": [
+          "target_price",
+          "cost_model"
+        ],
+        "calculation": "目标售价 $29.99 - 全成本 $None。",
+        "evidence": {
+          "score": 50,
+          "target_price": 29.99,
+          "landed_cost": null
+        },
+        "output": "利润分 50/100。"
+      },
+      {
+        "step": "competition",
+        "name": "竞争判断",
+        "question": "是否有差异化切入点？",
+        "inputs": [
+          "competitor_count",
+          "avg_rating",
+          "weaknesses"
+        ],
+        "calculation": "候选池数量、平均评分和评论弱点共同判断竞争压力与改良空间。",
+        "evidence": {
+          "score": 99,
+          "weaknesses": [
+            [
+              "durability",
+              "size mismatch",
+              "installation"
+            ],
+            [
+              "durability",
+              "too bulky",
+              "battery"
+            ],
+            [
+              "durability"
+            ],
+            [
+              "too bulky",
+              "battery",
+              "durability"
+            ],
+            [
+              "durability",
+              "battery",
+              "size mismatch"
+            ],
+            [
+              "installation",
+              "adhesive"
+            ],
+            [
+              "battery",
+              "installation"
+            ],
+            [
+              "battery",
+              "durability"
+            ],
+            [
+              "durability",
+              "battery"
+            ],
+            [],
+            [
+              "size mismatch",
+              "noise"
+            ],
+            [
+              "size mismatch",
+              "battery",
+              "installation"
+            ],
+            [
+              "durability",
+              "too bulky"
+            ],
+            [
+              "battery",
+              "durability"
+            ],
+            [
+              "size mismatch"
+            ],
+            [],
+            [
+              "size mismatch",
+              "battery"
+            ],
+            [],
+            [
+              "battery"
+            ],
+            [
+              "installation",
+              "battery",
+              "size mismatch"
+            ]
+          ]
+        },
+        "output": "竞争分 99/100。"
+      },
+      {
+        "step": "logistics_compliance",
+        "name": "物流与合规预检",
+        "question": "是否存在发布前就应该阻断的硬风险？",
+        "inputs": [
+          "weight",
+          "hazmat_flags",
+          "compliance_precheck"
+        ],
+        "calculation": "重量/尺寸/电池/液体/侵权/医疗/儿童/杀菌等风险扣分。",
+        "evidence": {
+          "logistics_score": 82,
+          "compliance_score": 23
+        },
+        "output": "物流 82/100，合规 23/100。"
+      },
+      {
+        "step": "final_decision",
+        "name": "最终路由",
+        "question": "是否进入 Listing 和合规链路？",
+        "inputs": [
+          "score_breakdown",
+          "blocking_risks"
+        ],
+        "calculation": "总分 = 需求25% + 利润25% + 竞争20% + 物流15% + 合规15%。",
+        "evidence": {
+          "score": 64,
+          "decision": "requires_human_review",
+          "score_breakdown": {
+            "demand": 64,
+            "profitability": 50,
+            "competition": 99,
+            "logistics": 82,
+            "compliance": 23
+          }
+        },
+        "output": "requires_human_review，机会分 64/100。"
+      }
+    ],
+    "selection_rationale": [
+      {
+        "claim": "候选池 20 条，当前主推 B07FFH5HWY。",
+        "evidence": "主推来自 product.attributes.source_parent_asin；候选池来自 matched metadata rows。",
+        "source": "ProductResearchRequest.product.attributes.source_parent_asin / competitors[]"
+      },
+      {
+        "claim": "主推需求信号强于对照：预估月销 4688 vs 898，评论 2131 vs 408。",
+        "evidence": "estimated_monthly_sales 由 review_count 与 rating 的本地规则估算；不是 Amazon 实时销量。",
+        "source": "competitors[].estimated_monthly_sales / competitors[].review_count"
+      },
+      {
+        "claim": "利润项得分 50/100，粗算毛利空间 None%。",
+        "evidence": "target_price=29.99, landed_cost=None, formula=(target_price-landed_cost)/target_price。",
+        "source": "ProductResearchRequest.target_price / cost_model.total_landed_cost()"
+      },
+      {
+        "claim": "评论痛点命中 durability, battery, size mismatch, too bulky, installation, noise, adhesive, odor。",
+        "evidence": "这些痛点来自 3 星及以下评论的关键词匹配，只能说明改良方向，不能直接证明市场规模。",
+        "source": "pain_points[].topic / pain_points[].example / pain_points[].source_asins"
+      },
+      {
+        "claim": "物流分 82/100，合规分 23/100。",
+        "evidence": "物流基于 weight/hazmat flags；合规基于标题/类目/features/claims 和 precheck flags，未发现阻断项。",
+        "source": "logistics / compliance_precheck / product claims"
+      }
+    ],
+    "issues": [
+      {
+        "category": "missing_unit_cost",
+        "severity": "medium",
+        "reason": "Cost model was provided but unit_cost is missing.",
+        "suggestion": "Provide unit_cost plus Amazon referral/FBA/ads/return allowances to calculate contribution margin."
+      },
+      {
+        "category": "amazon_compliance_precheck",
+        "severity": "medium",
+        "reason": "Amazon precheck flagged: medical_claim_risk.",
+        "suggestion": "Resolve IP/category/certificate risks before sourcing or publishing."
+      },
+      {
+        "category": "weak_compliance",
+        "severity": "high",
+        "reason": "compliance score is low (23/100).",
+        "suggestion": "Remove high-risk claims and confirm certificate/category requirements before sourcing."
+      }
+    ],
+    "suggestions": [
+      "Recalculate landed cost, referral fee, FBA/warehouse fee, and target margin.",
+      "Run compliance review early and avoid medical, treatment, absolute, or guarantee claims.",
+      "Validate differentiation against top ASINs before purchasing inventory.",
+      "Turn high-frequency review pain points into product requirements and listing bullets."
+    ],
+    "human_review_required": true,
+    "audit": {
+      "research_id": "rsch_d29a94602053",
+      "workflow_id": "wf_opp_electric_neck_massager",
+      "tool": "crossborder.product_research",
+      "runtime": "deterministic_rules",
+      "input_hash": "6e3ea3c840cc2d0ec6387eeb9b864354da4f2994b5abcbd85e676ec6a739bece",
+      "created_at": "2026-06-25T08:31:11.697830+00:00",
+      "version": "product-research-v2",
+      "platform": "amazon"
+    }
+  },
+  "handoff": [
+    "机会引擎从种子词出发，排名第一的赛道是「electric neck massager」（机会分 91.6）。",
+    "该赛道交给选品深度分析：在 20 个真实竞品上跑五维打分。",
+    "五维结论：机会分 64/100，决策 requires_human_review，置信度 0.74。",
+    "⚠️ 合规维度命中医疗声称措辞，已转人工核实（非硬阻断）。"
+  ]
+}
